@@ -1,0 +1,132 @@
+﻿@page "/"
+@using searchqueryapp.Data.service
+@using searchqueryapp.Data.model
+@using Azure.Search.Documents.Models
+@inject QueryACSService queryService
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="LeftPanel" class="col-sm-2 col-md-2">
+        </div>
+        <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2">
+            <EditForm Model="@searchQuery">
+                <div class="searchBoxForm">
+                    <div class="row">
+                        <div>
+                            <input @bind="searchQuery.searchText" class="searchBox" />
+                        </div>
+                        <div>
+                            <input type="submit" class="searchBtn" value="Search" @onclick="SubmitQuery">
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+    @if (searchResults != null)
+    {
+        if (!String.IsNullOrEmpty(searchResults.error))
+        {
+            <p class="sampleText">
+                Error Details: @searchResults.error
+            </p>
+        }
+        else if (searchResults.count == 0)
+        {
+            <p class="sampleText">
+                No results were found. Please alter your search criteria and try again.
+            </p>
+        }
+        else if (searchResults.processedResults != null)
+        {
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="facetPanel" class="col-sm-2 col-md-2 filterbar">
+                        @if (filtersApplied)
+                        {
+                            <a style="margin-left:40px;" href="#" @onclick="SubmitQuery">Clear Filters</a>
+                        }
+                        else
+                        {
+                            <a style="margin-left:40px;color:dimgrey">Clear Filters</a>
+                        }
+
+                        <DisplayFilters queryResult="searchResults" RunFilterQuery="@SubmitFilterQuery" />
+
+                    </div>
+                    <div class="col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 results_section">
+                        <DisplayResults queryResult="searchResults" />
+                    </div>
+
+                </div>
+            </div>
+        }
+    }
+
+
+    @code {
+
+        private Query searchQuery = new Query();
+        private Result searchResults = new Result();
+        private bool filtersApplied = false;
+
+
+        private void SubmitQuery()
+        {
+            //Clear Filter if any
+
+            searchQuery.filter = null;
+            searchQuery.facets = null;
+            filtersApplied = false;
+
+            if (searchQuery.searchText == null)
+                searchQuery.searchText = "*";
+
+            try
+            {
+                searchResults = queryService.GetResults(searchQuery);
+            }
+             catch (Exception e)
+            {
+                searchResults.error = e.Message;
+            }
+
+        }
+
+        protected void SubmitFilterQuery(string filterData)
+        {
+
+            string facetFilter = searchQuery.filter;
+
+            if (facetFilter != null)
+                facetFilter = facetFilter + " and " + filterData;
+            else
+                facetFilter = filterData;
+
+            searchQuery.filter = facetFilter;
+
+            filtersApplied = true;
+
+            try
+            {
+                searchResults = queryService.GetResults(searchQuery);
+            }
+            catch (Exception e)
+            {
+                searchResults.error = e.Message;
+            }
+        }
+
+        //protected void SubmitFilterQuery(Tuple <string, int> filterData)
+        //{
+
+        //    string facetFilter = searchQuery.filter;
+
+
+
+        //    SubmitQuery();
+        //}
+
+    }

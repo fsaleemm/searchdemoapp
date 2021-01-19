@@ -1,0 +1,69 @@
+﻿@using searchqueryapp.Data.model
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@{ Dictionary<string, string> speakersDict = Configuration.GetSection("Speakers").GetChildren().ToDictionary(x => x.Key, x => x.Value); }
+
+    <ul class="facetlist">
+        @foreach (var facet in queryResult.facets)
+        {
+            @if (facet.Key == "recognizedPhrases/speaker")
+            {
+                <li>
+                    <div id="@facet.Key">
+                        <h5 class="facetheader">Speaker</h5>
+                        <ul class="facetlist">
+                            @for (var c = 0; c < facet.Value.Count; c++)
+                            {
+                                int indx = c;
+
+                                if (speakersDict.ContainsKey(facet.Value[indx].Value.ToString()))
+                                {
+                                    <li>
+                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq '" + facet.Value[indx].Value + "')") )">@speakersDict[facet.Value[indx].Value.ToString()] (@facet.Value[c].Count)</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq '" + facet.Value[indx].Value + "')") )">@facet.Value[indx].Value (@facet.Value[c].Count)</a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </li>
+            }
+            else if (facet.Key == "duration")
+            {
+                <li>
+                    <div id="@facet.Key">
+                        <h5 class="facetheader">Duration</h5>
+                        <ul class="facetlist">
+                            @for (var c = 0; c < facet.Value.Count; c++)
+                            {
+                                int indx = c;
+                                <li>
+                                    @*<a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync(new Tuple<string, int>(facet.Key, indx)) )">@facet.Value[c].Value (@facet.Value[c].Count)</a>*@
+                                    <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync(facet.Key + " eq '" + facet.Value[indx].Value + "'") )">@facet.Value[c].Value (@facet.Value[c].Count)</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </li>
+            }
+            <br />
+        }
+    </ul>
+
+
+    @code {
+
+
+        [Parameter]
+        public Result queryResult { get; set; }
+
+        [Parameter]
+        public EventCallback<string> RunFilterQuery { get; set; }
+
+    }

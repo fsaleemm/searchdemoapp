@@ -1,0 +1,35 @@
+{
+  "name": "azureblob-indexer",
+  "description": "",
+  "dataSourceName": "jsonblobdata",
+  "skillsetName": null,
+  "targetIndexName": "azureblob-index",
+  "disabled": null,
+  "schedule": {
+    "interval": "PT1H",
+    "startTime": "2021-01-14T14:44:25.549Z"
+  },
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "json"
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "metadata_storage_path",
+      "mappingFunction": {
+        "name": "base64Encode",
+        "parameters": null
+      }
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}
