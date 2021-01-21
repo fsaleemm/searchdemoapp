@@ -1,0 +1,2716 @@
+{
+  "source": "https://myaudiostorageaccount.blob.core.windows.net/audio-input/Rec%2012-01-20.trec",
+  "timeStamp": "2020-12-15T18:06:02Z",
+  "durationTicks": 0,
+  "duration": "PT1M31.26S",
+  "combinedRecognizedPhrases": [
+    {
+      "channel": 0,
+      "lexical": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms including dot net node JS and java enterprise edition who should on premises hybrid or any other public cloud it automatically detects performance anomalies and you can also configure it to raise alerts email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code pow",
+      "itn": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms includingnet node JS and java enterprise edition who should on premises hybrid or any other public cloud it automatically detects performance anomalies and you can also configure it to raise alerts email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code pow",
+      "maskedITN": "Application Insights is an application performance management service that you can use to monitor your live web application For availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them It works for apps on a wide variety of platforms Includingnet node JS and Java Enterprise edition Who should on premises hybrid or any other public cloud It automatically detects performance anomalies and you can also configure it to raise alerts Email text messages etc When exceptional conditions occurs such as CPU utilization crossing a certain threshold It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application Such as what pages they are viewing how much time they spend on each page etc This is done through defining custom metrics in your code Pow",
+      "display": "Application Insights is an application performance management service that you can use to monitor your live web application. For availability, performance and usage, you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them. It works for apps on a wide variety of platforms. Including.net, node JS and Java Enterprise edition. Who should on premises, hybrid or any other public cloud? It automatically detects performance anomalies and you can also configure it to raise alerts. Email, text messages, etc. When exceptional conditions occurs, such as CPU utilization, crossing a certain threshold. It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application. Such as what pages they are viewing, how much time they spend on each page, etc. This is done through defining custom metrics in your code. Pow."
+    },
+    {
+      "channel": 1,
+      "lexical": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms including dot net node JS and java enterprise edition who stood on premises hybrid or any other public cloud it automatically detects performance anomalies and you can also configure it to raise alerts email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code paul",
+      "itn": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms includingnet node JS and java enterprise edition who stood on premises hybrid or any other public cloud it automatically detects performance anomalies and you can also configure it to raise alerts email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code paul",
+      "maskedITN": "Application Insights is an application performance management service that you can use to monitor your live web application For availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them It works for apps on a wide variety of platforms includingnet node JS and Java Enterprise Edition Who stood on premises hybrid or any other public cloud It automatically detects performance anomalies and you can also configure it to raise alerts Email text messages etc When exceptional conditions occurs such as CPU utilization crossing a certain threshold It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc This is done through defining custom metrics in your code Paul",
+      "display": "Application Insights is an application performance management service that you can use to monitor your live web application. For availability, performance and usage, you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them. It works for apps on a wide variety of platforms, including.net, node JS and Java Enterprise Edition. Who stood on premises hybrid or any other public cloud? It automatically detects performance anomalies and you can also configure it to raise alerts. Email, text messages, etc. When exceptional conditions occurs, such as CPU utilization, crossing a certain threshold. It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application, such as what pages they are viewing, how much time they spend on each page, etc. This is done through defining custom metrics in your code. Paul."
+    }
+  ],
+  "recognizedPhrases": [
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT1.54S",
+      "duration": "PT21.12S",
+      "offsetInTicks": 15400000.0,
+      "durationInTicks": 211200000.0,
+      "nBest": [
+        {
+          "confidence": 0.90632236,
+          "lexical": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them",
+          "itn": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them",
+          "maskedITN": "Application Insights is an application performance management service that you can use to monitor your live web application For availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them",
+          "display": "Application Insights is an application performance management service that you can use to monitor your live web application. For availability, performance and usage, you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them.",
+          "words": [
+            {
+              "word": "application",
+              "offset": "PT2.82S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 28200000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.910072
+            },
+            {
+              "word": "insights",
+              "offset": "PT3.54S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 35400000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.92628
+            },
+            {
+              "word": "is",
+              "offset": "PT4.26S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 42600000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.893272
+            },
+            {
+              "word": "an",
+              "offset": "PT4.48S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 44800000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.886446
+            },
+            {
+              "word": "application",
+              "offset": "PT4.62S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 46200000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.906533
+            },
+            {
+              "word": "performance",
+              "offset": "PT5.17S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 51700000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.877067
+            },
+            {
+              "word": "management",
+              "offset": "PT5.72S",
+              "duration": "PT0.7S",
+              "offsetInTicks": 57200000.0,
+              "durationInTicks": 7000000.0,
+              "confidence": 0.939707
+            },
+            {
+              "word": "service",
+              "offset": "PT6.42S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 64200000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.943848
+            },
+            {
+              "word": "that",
+              "offset": "PT7.04S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 70400000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.93138
+            },
+            {
+              "word": "you",
+              "offset": "PT7.28S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 72800000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.932254
+            },
+            {
+              "word": "can",
+              "offset": "PT7.4S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 74000000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.923739
+            },
+            {
+              "word": "use",
+              "offset": "PT7.58S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 75800000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.93469
+            },
+            {
+              "word": "to",
+              "offset": "PT8.22S",
+              "duration": "PT0.61S",
+              "offsetInTicks": 82200000.0,
+              "durationInTicks": 6100000.0,
+              "confidence": 0.941764
+            },
+            {
+              "word": "monitor",
+              "offset": "PT8.99S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 89900000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.916096
+            },
+            {
+              "word": "your",
+              "offset": "PT9.55S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 95500000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.926924
+            },
+            {
+              "word": "live",
+              "offset": "PT9.72S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 97200000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.81544
+            },
+            {
+              "word": "web",
+              "offset": "PT10.15S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 101500000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.887007
+            },
+            {
+              "word": "application",
+              "offset": "PT10.42S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 104200000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.915173
+            },
+            {
+              "word": "for",
+              "offset": "PT11.14S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 111400000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.880645
+            },
+            {
+              "word": "availability",
+              "offset": "PT11.37S",
+              "duration": "PT0.75S",
+              "offsetInTicks": 113700000.0,
+              "durationInTicks": 7500000.0,
+              "confidence": 0.946602
+            },
+            {
+              "word": "performance",
+              "offset": "PT12.12S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 121200000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.944239
+            },
+            {
+              "word": "and",
+              "offset": "PT12.84S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 128400000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.925926
+            },
+            {
+              "word": "usage",
+              "offset": "PT13.08S",
+              "duration": "PT0.81S",
+              "offsetInTicks": 130800000.0,
+              "durationInTicks": 8100000.0,
+              "confidence": 0.781905
+            },
+            {
+              "word": "you",
+              "offset": "PT14.17S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 141700000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.719658
+            },
+            {
+              "word": "can",
+              "offset": "PT14.4S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 144000000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.939707
+            },
+            {
+              "word": "use",
+              "offset": "PT14.62S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 146200000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.95632
+            },
+            {
+              "word": "it",
+              "offset": "PT14.88S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 148800000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.919314
+            },
+            {
+              "word": "to",
+              "offset": "PT15.02S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 150200000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.916809
+            },
+            {
+              "word": "quickly",
+              "offset": "PT15.14S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 151400000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.909756
+            },
+            {
+              "word": "and",
+              "offset": "PT15.72S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 157200000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.81178
+            },
+            {
+              "word": "proactively",
+              "offset": "PT15.84S",
+              "duration": "PT0.9S",
+              "offsetInTicks": 158400000.0,
+              "durationInTicks": 9000000.0,
+              "confidence": 0.899801
+            },
+            {
+              "word": "identify",
+              "offset": "PT16.74S",
+              "duration": "PT0.68S",
+              "offsetInTicks": 167400000.0,
+              "durationInTicks": 6800000.0,
+              "confidence": 0.940436
+            },
+            {
+              "word": "and",
+              "offset": "PT17.42S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 174200000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.933988
+            },
+            {
+              "word": "diagnose",
+              "offset": "PT17.69S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 176900000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.866514
+            },
+            {
+              "word": "errors",
+              "offset": "PT18.4S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 184000000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.914448
+            },
+            {
+              "word": "in",
+              "offset": "PT18.82S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 188200000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.903447
+            },
+            {
+              "word": "your",
+              "offset": "PT18.91S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 189100000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.875428
+            },
+            {
+              "word": "application",
+              "offset": "PT19.08S",
+              "duration": "PT0.95S",
+              "offsetInTicks": 190800000.0,
+              "durationInTicks": 9500000.0,
+              "confidence": 0.94059
+            },
+            {
+              "word": "without",
+              "offset": "PT20.05S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 200500000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.862547
+            },
+            {
+              "word": "waiting",
+              "offset": "PT20.6S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 206000000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.911874
+            },
+            {
+              "word": "for",
+              "offset": "PT20.94S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 209400000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.900414
+            },
+            {
+              "word": "a",
+              "offset": "PT21.15S",
+              "duration": "PT0.07S",
+              "offsetInTicks": 211500000.0,
+              "durationInTicks": 700000.0,
+              "confidence": 0.933888
+            },
+            {
+              "word": "user",
+              "offset": "PT21.22S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 212200000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.864099
+            },
+            {
+              "word": "to",
+              "offset": "PT21.66S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 216600000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.869679
+            },
+            {
+              "word": "report",
+              "offset": "PT21.76S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 217600000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.937403
+            },
+            {
+              "word": "them",
+              "offset": "PT22.28S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 222800000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.930645
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT23.37S",
+      "duration": "PT12.54S",
+      "offsetInTicks": 233700000.0,
+      "durationInTicks": 125400000.0,
+      "nBest": [
+        {
+          "confidence": 0.8743161,
+          "lexical": "it works for apps on a wide variety of platforms including dot net node JS and java enterprise edition who should on premises hybrid or any other public cloud",
+          "itn": "it works for apps on a wide variety of platforms includingnet node JS and java enterprise edition who should on premises hybrid or any other public cloud",
+          "maskedITN": "It works for apps on a wide variety of platforms Includingnet node JS and Java Enterprise edition Who should on premises hybrid or any other public cloud",
+          "display": "It works for apps on a wide variety of platforms. Including.net, node JS and Java Enterprise edition. Who should on premises, hybrid or any other public cloud?",
+          "words": [
+            {
+              "word": "it",
+              "offset": "PT23.39S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 233900000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.898928
+            },
+            {
+              "word": "works",
+              "offset": "PT23.65S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 236500000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.957156
+            },
+            {
+              "word": "for",
+              "offset": "PT24.01S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 240100000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.85751
+            },
+            {
+              "word": "apps",
+              "offset": "PT24.25S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 242500000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.752396
+            },
+            {
+              "word": "on",
+              "offset": "PT24.69S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 246900000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.911543
+            },
+            {
+              "word": "a",
+              "offset": "PT24.85S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 248500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.853404
+            },
+            {
+              "word": "wide",
+              "offset": "PT24.93S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 249300000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.896971
+            },
+            {
+              "word": "variety",
+              "offset": "PT25.25S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 252500000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.873479
+            },
+            {
+              "word": "of",
+              "offset": "PT25.75S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 257500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.940399
+            },
+            {
+              "word": "platforms",
+              "offset": "PT25.87S",
+              "duration": "PT0.7S",
+              "offsetInTicks": 258700000.0,
+              "durationInTicks": 7000000.0,
+              "confidence": 0.922661
+            },
+            {
+              "word": "including",
+              "offset": "PT26.57S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 265700000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.910569
+            },
+            {
+              "word": "dot",
+              "offset": "PT27.09S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 270900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.880488
+            },
+            {
+              "word": "net",
+              "offset": "PT27.43S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 274300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.937562
+            },
+            {
+              "word": "node",
+              "offset": "PT28.07S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 280700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.455625
+            },
+            {
+              "word": "JS",
+              "offset": "PT28.43S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 284300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.921934
+            },
+            {
+              "word": "and",
+              "offset": "PT28.89S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 288900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.890276
+            },
+            {
+              "word": "java",
+              "offset": "PT29.03S",
+              "duration": "PT0.76S",
+              "offsetInTicks": 290300000.0,
+              "durationInTicks": 7600000.0,
+              "confidence": 0.81635
+            },
+            {
+              "word": "enterprise",
+              "offset": "PT30.12S",
+              "duration": "PT0.67S",
+              "offsetInTicks": 301200000.0,
+              "durationInTicks": 6700000.0,
+              "confidence": 0.914417
+            },
+            {
+              "word": "edition",
+              "offset": "PT30.79S",
+              "duration": "PT0.75S",
+              "offsetInTicks": 307900000.0,
+              "durationInTicks": 7500000.0,
+              "confidence": 0.932539
+            },
+            {
+              "word": "who",
+              "offset": "PT31.78S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 317800000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.707018
+            },
+            {
+              "word": "should",
+              "offset": "PT32.03S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 320300000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.773528
+            },
+            {
+              "word": "on",
+              "offset": "PT32.29S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 322900000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.750602
+            },
+            {
+              "word": "premises",
+              "offset": "PT32.51S",
+              "duration": "PT0.99S",
+              "offsetInTicks": 325100000.0,
+              "durationInTicks": 9900000.0,
+              "confidence": 0.920097
+            },
+            {
+              "word": "hybrid",
+              "offset": "PT33.62S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 336200000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.890242
+            },
+            {
+              "word": "or",
+              "offset": "PT34.17S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 341700000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.941085
+            },
+            {
+              "word": "any",
+              "offset": "PT34.48S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 344800000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.920923
+            },
+            {
+              "word": "other",
+              "offset": "PT34.8S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 348000000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.779884
+            },
+            {
+              "word": "public",
+              "offset": "PT34.92S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 349200000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.831529
+            },
+            {
+              "word": "cloud",
+              "offset": "PT35.3S",
+              "duration": "PT0.59S",
+              "offsetInTicks": 353000000.0,
+              "durationInTicks": 5900000.0,
+              "confidence": 0.96208
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT36.99S",
+      "duration": "PT5.22S",
+      "offsetInTicks": 369900000.0,
+      "durationInTicks": 52200000.0,
+      "nBest": [
+        {
+          "confidence": 0.87851715,
+          "lexical": "it automatically detects performance anomalies and you can also configure it to raise alerts",
+          "itn": "it automatically detects performance anomalies and you can also configure it to raise alerts",
+          "maskedITN": "It automatically detects performance anomalies and you can also configure it to raise alerts",
+          "display": "It automatically detects performance anomalies and you can also configure it to raise alerts.",
+          "words": [
+            {
+              "word": "it",
+              "offset": "PT37.01S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 370100000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.889082
+            },
+            {
+              "word": "automatically",
+              "offset": "PT37.25S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 372500000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.926227
+            },
+            {
+              "word": "detects",
+              "offset": "PT37.89S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 378900000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.942073
+            },
+            {
+              "word": "performance",
+              "offset": "PT38.39S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 383900000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.854237
+            },
+            {
+              "word": "anomalies",
+              "offset": "PT38.95S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 389500000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.813977
+            },
+            {
+              "word": "and",
+              "offset": "PT39.59S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 395900000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.910231
+            },
+            {
+              "word": "you",
+              "offset": "PT39.71S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 397100000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.861484
+            },
+            {
+              "word": "can",
+              "offset": "PT39.81S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 398100000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.910374
+            },
+            {
+              "word": "also",
+              "offset": "PT39.97S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 399700000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.937962
+            },
+            {
+              "word": "configure",
+              "offset": "PT40.24S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 402400000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.89562
+            },
+            {
+              "word": "it",
+              "offset": "PT40.79S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 407900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.926406
+            },
+            {
+              "word": "to",
+              "offset": "PT40.93S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 409300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.809444
+            },
+            {
+              "word": "raise",
+              "offset": "PT41.05S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 410500000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.884667
+            },
+            {
+              "word": "alerts",
+              "offset": "PT41.43S",
+              "duration": "PT0.76S",
+              "offsetInTicks": 414300000.0,
+              "durationInTicks": 7600000.0,
+              "confidence": 0.821471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT42.93S",
+      "duration": "PT7.64S",
+      "offsetInTicks": 429300000.0,
+      "durationInTicks": 76400000.0,
+      "nBest": [
+        {
+          "confidence": 0.83529514,
+          "lexical": "email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "itn": "email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "maskedITN": "Email text messages etc When exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "display": "Email, text messages, etc. When exceptional conditions occurs, such as CPU utilization, crossing a certain threshold.",
+          "words": [
+            {
+              "word": "email",
+              "offset": "PT42.95S",
+              "duration": "PT0.74S",
+              "offsetInTicks": 429500000.0,
+              "durationInTicks": 7400000.0,
+              "confidence": 0.893402
+            },
+            {
+              "word": "text",
+              "offset": "PT43.69S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 436900000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.925996
+            },
+            {
+              "word": "messages",
+              "offset": "PT44.15S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 441500000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.906538
+            },
+            {
+              "word": "etc",
+              "offset": "PT44.65S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 446500000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.922088
+            },
+            {
+              "word": "when",
+              "offset": "PT45.71S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 457100000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.661634
+            },
+            {
+              "word": "exceptional",
+              "offset": "PT45.93S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 459300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.693978
+            },
+            {
+              "word": "conditions",
+              "offset": "PT46.43S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 464300000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.864109
+            },
+            {
+              "word": "occurs",
+              "offset": "PT46.87S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 468700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.863646
+            },
+            {
+              "word": "such",
+              "offset": "PT47.23S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 472300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.525739
+            },
+            {
+              "word": "as",
+              "offset": "PT47.43S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 474300000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.922667
+            },
+            {
+              "word": "CPU",
+              "offset": "PT47.64S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 476400000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.608932
+            },
+            {
+              "word": "utilization",
+              "offset": "PT48.35S",
+              "duration": "PT0.82S",
+              "offsetInTicks": 483500000.0,
+              "durationInTicks": 8200000.0,
+              "confidence": 0.87558
+            },
+            {
+              "word": "crossing",
+              "offset": "PT49.17S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 491700000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.812371
+            },
+            {
+              "word": "a",
+              "offset": "PT49.57S",
+              "duration": "PT0.06S",
+              "offsetInTicks": 495700000.0,
+              "durationInTicks": 600000.0,
+              "confidence": 0.85033
+            },
+            {
+              "word": "certain",
+              "offset": "PT49.63S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 496300000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.875401
+            },
+            {
+              "word": "threshold",
+              "offset": "PT49.91S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 499100000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.919783
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT51.41S",
+      "duration": "PT7.19S",
+      "offsetInTicks": 514100000.0,
+      "durationInTicks": 71900000.0,
+      "nBest": [
+        {
+          "confidence": 0.89015925,
+          "lexical": "it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application",
+          "itn": "it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application",
+          "maskedITN": "It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application",
+          "display": "It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application.",
+          "words": [
+            {
+              "word": "it",
+              "offset": "PT51.43S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 514300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.92296
+            },
+            {
+              "word": "includes",
+              "offset": "PT51.63S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 516300000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.869583
+            },
+            {
+              "word": "powerful",
+              "offset": "PT52.05S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 520500000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.774675
+            },
+            {
+              "word": "analytic",
+              "offset": "PT52.43S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 524300000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.801688
+            },
+            {
+              "word": "tools",
+              "offset": "PT52.97S",
+              "duration": "PT0.91S",
+              "offsetInTicks": 529700000.0,
+              "durationInTicks": 9100000.0,
+              "confidence": 0.941764
+            },
+            {
+              "word": "to",
+              "offset": "PT53.9S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 539000000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.920985
+            },
+            {
+              "word": "help",
+              "offset": "PT54.07S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 540700000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.94272
+            },
+            {
+              "word": "you",
+              "offset": "PT54.29S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 542900000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.848639
+            },
+            {
+              "word": "diagnose",
+              "offset": "PT54.37S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 543700000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.881395
+            },
+            {
+              "word": "issues",
+              "offset": "PT54.87S",
+              "duration": "PT0.47S",
+              "offsetInTicks": 548700000.0,
+              "durationInTicks": 4700000.0,
+              "confidence": 0.884861
+            },
+            {
+              "word": "and",
+              "offset": "PT55.34S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 553400000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.934539
+            },
+            {
+              "word": "also",
+              "offset": "PT55.55S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 555500000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.914563
+            },
+            {
+              "word": "to",
+              "offset": "PT55.83S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 558300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.883865
+            },
+            {
+              "word": "understand",
+              "offset": "PT55.93S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 559300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.846528
+            },
+            {
+              "word": "how",
+              "offset": "PT56.39S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 563900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.937966
+            },
+            {
+              "word": "users",
+              "offset": "PT56.53S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 565300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.820305
+            },
+            {
+              "word": "are",
+              "offset": "PT57.03S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 570300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.934436
+            },
+            {
+              "word": "using",
+              "offset": "PT57.15S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 571500000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.927814
+            },
+            {
+              "word": "your",
+              "offset": "PT57.52S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 575200000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.905767
+            },
+            {
+              "word": "application",
+              "offset": "PT57.73S",
+              "duration": "PT0.85S",
+              "offsetInTicks": 577300000.0,
+              "durationInTicks": 8500000.0,
+              "confidence": 0.949488
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT59.11S",
+      "duration": "PT8.81S",
+      "offsetInTicks": 591100000.0,
+      "durationInTicks": 88100000.0,
+      "nBest": [
+        {
+          "confidence": 0.8597977,
+          "lexical": "such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code",
+          "itn": "such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code",
+          "maskedITN": "Such as what pages they are viewing how much time they spend on each page etc This is done through defining custom metrics in your code",
+          "display": "Such as what pages they are viewing, how much time they spend on each page, etc. This is done through defining custom metrics in your code.",
+          "words": [
+            {
+              "word": "such",
+              "offset": "PT59.14S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 591400000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.742392
+            },
+            {
+              "word": "as",
+              "offset": "PT59.53S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 595300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.942475
+            },
+            {
+              "word": "what",
+              "offset": "PT59.73S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 597300000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.701132
+            },
+            {
+              "word": "pages",
+              "offset": "PT59.95S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 599500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.80337
+            },
+            {
+              "word": "they",
+              "offset": "PT1M0.35S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 603500000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.717919
+            },
+            {
+              "word": "are",
+              "offset": "PT1M0.46S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 604600000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.883165
+            },
+            {
+              "word": "viewing",
+              "offset": "PT1M0.55S",
+              "duration": "PT0.45S",
+              "offsetInTicks": 605500000.0,
+              "durationInTicks": 4500000.0,
+              "confidence": 0.826174
+            },
+            {
+              "word": "how",
+              "offset": "PT1M1S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 610000000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.757925
+            },
+            {
+              "word": "much",
+              "offset": "PT1M1.11S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 611100000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.946683
+            },
+            {
+              "word": "time",
+              "offset": "PT1M1.31S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 613100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.936211
+            },
+            {
+              "word": "they",
+              "offset": "PT1M1.57S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 615700000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.788546
+            },
+            {
+              "word": "spend",
+              "offset": "PT1M1.65S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 616500000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.933055
+            },
+            {
+              "word": "on",
+              "offset": "PT1M1.95S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 619500000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.906806
+            },
+            {
+              "word": "each",
+              "offset": "PT1M2.09S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 620900000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.922735
+            },
+            {
+              "word": "page",
+              "offset": "PT1M2.27S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 622700000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.948219
+            },
+            {
+              "word": "etc",
+              "offset": "PT1M2.87S",
+              "duration": "PT0.9S",
+              "offsetInTicks": 628700000.0,
+              "durationInTicks": 9000000.0,
+              "confidence": 0.907874
+            },
+            {
+              "word": "this",
+              "offset": "PT1M4S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 640000000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.615645
+            },
+            {
+              "word": "is",
+              "offset": "PT1M4.23S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 642300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.943816
+            },
+            {
+              "word": "done",
+              "offset": "PT1M4.39S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 643900000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.897655
+            },
+            {
+              "word": "through",
+              "offset": "PT1M4.69S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 646900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.942254
+            },
+            {
+              "word": "defining",
+              "offset": "PT1M5.07S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 650700000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.726191
+            },
+            {
+              "word": "custom",
+              "offset": "PT1M6.01S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 660100000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.862187
+            },
+            {
+              "word": "metrics",
+              "offset": "PT1M6.45S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 664500000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.870894
+            },
+            {
+              "word": "in",
+              "offset": "PT1M6.93S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 669300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.918181
+            },
+            {
+              "word": "your",
+              "offset": "PT1M7.07S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 670700000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.95164
+            },
+            {
+              "word": "code",
+              "offset": "PT1M7.31S",
+              "duration": "PT0.59S",
+              "offsetInTicks": 673100000.0,
+              "durationInTicks": 5900000.0,
+              "confidence": 0.939344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT1M13S",
+      "duration": "PT2.42S",
+      "offsetInTicks": 730000000.0,
+      "durationInTicks": 24200000.0,
+      "nBest": [
+        {
+          "confidence": 0.04750648,
+          "lexical": "pow",
+          "itn": "pow",
+          "maskedITN": "Pow",
+          "display": "Pow.",
+          "words": [
+            {
+              "word": "pow",
+              "offset": "PT1M14.61S",
+              "duration": "PT0.79S",
+              "offsetInTicks": 746100000.0,
+              "durationInTicks": 7900000.0,
+              "confidence": 0.047506
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT1.55S",
+      "duration": "PT30.26S",
+      "offsetInTicks": 15500000.0,
+      "durationInTicks": 302600000.0,
+      "nBest": [
+        {
+          "confidence": 0.8940868,
+          "lexical": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms including dot net node JS and java enterprise edition",
+          "itn": "application insights is an application performance management service that you can use to monitor your live web application for availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them it works for apps on a wide variety of platforms includingnet node JS and java enterprise edition",
+          "maskedITN": "Application Insights is an application performance management service that you can use to monitor your live web application For availability performance and usage you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them It works for apps on a wide variety of platforms includingnet node JS and Java Enterprise Edition",
+          "display": "Application Insights is an application performance management service that you can use to monitor your live web application. For availability, performance and usage, you can use it to quickly and proactively identify and diagnose errors in your application without waiting for a user to report them. It works for apps on a wide variety of platforms, including.net, node JS and Java Enterprise Edition.",
+          "words": [
+            {
+              "word": "application",
+              "offset": "PT2.82S",
+              "duration": "PT0.73S",
+              "offsetInTicks": 28200000.0,
+              "durationInTicks": 7300000.0,
+              "confidence": 0.912992
+            },
+            {
+              "word": "insights",
+              "offset": "PT3.55S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 35500000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.926237
+            },
+            {
+              "word": "is",
+              "offset": "PT4.27S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 42700000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.894778
+            },
+            {
+              "word": "an",
+              "offset": "PT4.49S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 44900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.888589
+            },
+            {
+              "word": "application",
+              "offset": "PT4.63S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 46300000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.901223
+            },
+            {
+              "word": "performance",
+              "offset": "PT5.17S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 51700000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.884725
+            },
+            {
+              "word": "management",
+              "offset": "PT5.73S",
+              "duration": "PT0.7S",
+              "offsetInTicks": 57300000.0,
+              "durationInTicks": 7000000.0,
+              "confidence": 0.939556
+            },
+            {
+              "word": "service",
+              "offset": "PT6.43S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 64300000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.94498
+            },
+            {
+              "word": "that",
+              "offset": "PT7.03S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 70300000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.927691
+            },
+            {
+              "word": "you",
+              "offset": "PT7.28S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 72800000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.930116
+            },
+            {
+              "word": "can",
+              "offset": "PT7.39S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 73900000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.929726
+            },
+            {
+              "word": "use",
+              "offset": "PT7.59S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 75900000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.935703
+            },
+            {
+              "word": "to",
+              "offset": "PT8.21S",
+              "duration": "PT0.61S",
+              "offsetInTicks": 82100000.0,
+              "durationInTicks": 6100000.0,
+              "confidence": 0.943079
+            },
+            {
+              "word": "monitor",
+              "offset": "PT9S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 90000000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.914618
+            },
+            {
+              "word": "your",
+              "offset": "PT9.55S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 95500000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.928909
+            },
+            {
+              "word": "live",
+              "offset": "PT9.73S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 97300000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.816064
+            },
+            {
+              "word": "web",
+              "offset": "PT10.16S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 101600000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.879662
+            },
+            {
+              "word": "application",
+              "offset": "PT10.41S",
+              "duration": "PT0.74S",
+              "offsetInTicks": 104100000.0,
+              "durationInTicks": 7400000.0,
+              "confidence": 0.917403
+            },
+            {
+              "word": "for",
+              "offset": "PT11.15S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 111500000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.877651
+            },
+            {
+              "word": "availability",
+              "offset": "PT11.37S",
+              "duration": "PT0.76S",
+              "offsetInTicks": 113700000.0,
+              "durationInTicks": 7600000.0,
+              "confidence": 0.950561
+            },
+            {
+              "word": "performance",
+              "offset": "PT12.13S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 121300000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.942583
+            },
+            {
+              "word": "and",
+              "offset": "PT12.85S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 128500000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.929117
+            },
+            {
+              "word": "usage",
+              "offset": "PT13.07S",
+              "duration": "PT0.81S",
+              "offsetInTicks": 130700000.0,
+              "durationInTicks": 8100000.0,
+              "confidence": 0.789135
+            },
+            {
+              "word": "you",
+              "offset": "PT14.13S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 141300000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.714453
+            },
+            {
+              "word": "can",
+              "offset": "PT14.41S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 144100000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.935336
+            },
+            {
+              "word": "use",
+              "offset": "PT14.61S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 146100000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.959023
+            },
+            {
+              "word": "it",
+              "offset": "PT14.89S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 148900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.917688
+            },
+            {
+              "word": "to",
+              "offset": "PT15.03S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 150300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.91362
+            },
+            {
+              "word": "quickly",
+              "offset": "PT15.15S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 151500000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.911024
+            },
+            {
+              "word": "and",
+              "offset": "PT15.71S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 157100000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.810275
+            },
+            {
+              "word": "proactively",
+              "offset": "PT15.83S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 158300000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.896223
+            },
+            {
+              "word": "identify",
+              "offset": "PT16.75S",
+              "duration": "PT0.66S",
+              "offsetInTicks": 167500000.0,
+              "durationInTicks": 6600000.0,
+              "confidence": 0.94074
+            },
+            {
+              "word": "and",
+              "offset": "PT17.41S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 174100000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.937735
+            },
+            {
+              "word": "diagnose",
+              "offset": "PT17.68S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 176800000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.86382
+            },
+            {
+              "word": "errors",
+              "offset": "PT18.39S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 183900000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.909844
+            },
+            {
+              "word": "in",
+              "offset": "PT18.81S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 188100000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.909761
+            },
+            {
+              "word": "your",
+              "offset": "PT18.91S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 189100000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.871749
+            },
+            {
+              "word": "application",
+              "offset": "PT19.07S",
+              "duration": "PT0.95S",
+              "offsetInTicks": 190700000.0,
+              "durationInTicks": 9500000.0,
+              "confidence": 0.940236
+            },
+            {
+              "word": "without",
+              "offset": "PT20.04S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 200400000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.847446
+            },
+            {
+              "word": "waiting",
+              "offset": "PT20.59S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 205900000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.919295
+            },
+            {
+              "word": "for",
+              "offset": "PT20.95S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 209500000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.898278
+            },
+            {
+              "word": "a",
+              "offset": "PT21.15S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 211500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.937102
+            },
+            {
+              "word": "user",
+              "offset": "PT21.23S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 212300000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.861071
+            },
+            {
+              "word": "to",
+              "offset": "PT21.65S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 216500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.888391
+            },
+            {
+              "word": "report",
+              "offset": "PT21.77S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 217700000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.937656
+            },
+            {
+              "word": "them",
+              "offset": "PT22.27S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 222700000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.911424
+            },
+            {
+              "word": "it",
+              "offset": "PT23.4S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 234000000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.750104
+            },
+            {
+              "word": "works",
+              "offset": "PT23.65S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 236500000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.960746
+            },
+            {
+              "word": "for",
+              "offset": "PT24.01S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 240100000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.842779
+            },
+            {
+              "word": "apps",
+              "offset": "PT24.25S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 242500000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.775632
+            },
+            {
+              "word": "on",
+              "offset": "PT24.69S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 246900000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.912545
+            },
+            {
+              "word": "a",
+              "offset": "PT24.85S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 248500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.853404
+            },
+            {
+              "word": "wide",
+              "offset": "PT24.93S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 249300000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.901512
+            },
+            {
+              "word": "variety",
+              "offset": "PT25.25S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 252500000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.875761
+            },
+            {
+              "word": "of",
+              "offset": "PT25.75S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 257500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.940171
+            },
+            {
+              "word": "platforms",
+              "offset": "PT25.87S",
+              "duration": "PT0.7S",
+              "offsetInTicks": 258700000.0,
+              "durationInTicks": 7000000.0,
+              "confidence": 0.921032
+            },
+            {
+              "word": "including",
+              "offset": "PT26.57S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 265700000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.911311
+            },
+            {
+              "word": "dot",
+              "offset": "PT27.09S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 270900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.858308
+            },
+            {
+              "word": "net",
+              "offset": "PT27.43S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 274300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.937267
+            },
+            {
+              "word": "node",
+              "offset": "PT28.06S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 280600000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.441035
+            },
+            {
+              "word": "JS",
+              "offset": "PT28.43S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 284300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.921569
+            },
+            {
+              "word": "and",
+              "offset": "PT28.89S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 288900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.89116
+            },
+            {
+              "word": "java",
+              "offset": "PT29.03S",
+              "duration": "PT0.76S",
+              "offsetInTicks": 290300000.0,
+              "durationInTicks": 7600000.0,
+              "confidence": 0.803269
+            },
+            {
+              "word": "enterprise",
+              "offset": "PT30.12S",
+              "duration": "PT0.67S",
+              "offsetInTicks": 301200000.0,
+              "durationInTicks": 6700000.0,
+              "confidence": 0.918756
+            },
+            {
+              "word": "edition",
+              "offset": "PT30.79S",
+              "duration": "PT0.76S",
+              "offsetInTicks": 307900000.0,
+              "durationInTicks": 7600000.0,
+              "confidence": 0.93164
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT31.81S",
+      "duration": "PT4.08S",
+      "offsetInTicks": 318100000.0,
+      "durationInTicks": 40800000.0,
+      "nBest": [
+        {
+          "confidence": 0.88053435,
+          "lexical": "who stood on premises hybrid or any other public cloud",
+          "itn": "who stood on premises hybrid or any other public cloud",
+          "maskedITN": "Who stood on premises hybrid or any other public cloud",
+          "display": "Who stood on premises hybrid or any other public cloud?",
+          "words": [
+            {
+              "word": "who",
+              "offset": "PT31.83S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 318300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.881537
+            },
+            {
+              "word": "stood",
+              "offset": "PT32.03S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 320300000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.596166
+            },
+            {
+              "word": "on",
+              "offset": "PT32.29S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 322900000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.898763
+            },
+            {
+              "word": "premises",
+              "offset": "PT32.51S",
+              "duration": "PT0.99S",
+              "offsetInTicks": 325100000.0,
+              "durationInTicks": 9900000.0,
+              "confidence": 0.900129
+            },
+            {
+              "word": "hybrid",
+              "offset": "PT33.62S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 336200000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.892109
+            },
+            {
+              "word": "or",
+              "offset": "PT34.17S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 341700000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.940707
+            },
+            {
+              "word": "any",
+              "offset": "PT34.48S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 344800000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.917838
+            },
+            {
+              "word": "other",
+              "offset": "PT34.8S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 348000000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.768288
+            },
+            {
+              "word": "public",
+              "offset": "PT34.92S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 349200000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.824163
+            },
+            {
+              "word": "cloud",
+              "offset": "PT35.29S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 352900000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.962769
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT36.99S",
+      "duration": "PT5.17S",
+      "offsetInTicks": 369900000.0,
+      "durationInTicks": 51700000.0,
+      "nBest": [
+        {
+          "confidence": 0.88367194,
+          "lexical": "it automatically detects performance anomalies and you can also configure it to raise alerts",
+          "itn": "it automatically detects performance anomalies and you can also configure it to raise alerts",
+          "maskedITN": "It automatically detects performance anomalies and you can also configure it to raise alerts",
+          "display": "It automatically detects performance anomalies and you can also configure it to raise alerts.",
+          "words": [
+            {
+              "word": "it",
+              "offset": "PT37.02S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 370200000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.890394
+            },
+            {
+              "word": "automatically",
+              "offset": "PT37.25S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 372500000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.925325
+            },
+            {
+              "word": "detects",
+              "offset": "PT37.89S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 378900000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.942583
+            },
+            {
+              "word": "performance",
+              "offset": "PT38.39S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 383900000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.855357
+            },
+            {
+              "word": "anomalies",
+              "offset": "PT38.95S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 389500000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.813833
+            },
+            {
+              "word": "and",
+              "offset": "PT39.59S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 395900000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.908979
+            },
+            {
+              "word": "you",
+              "offset": "PT39.71S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 397100000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.860646
+            },
+            {
+              "word": "can",
+              "offset": "PT39.81S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 398100000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.910639
+            },
+            {
+              "word": "also",
+              "offset": "PT39.97S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 399700000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.938346
+            },
+            {
+              "word": "configure",
+              "offset": "PT40.24S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 402400000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.89615
+            },
+            {
+              "word": "it",
+              "offset": "PT40.79S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 407900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.926406
+            },
+            {
+              "word": "to",
+              "offset": "PT40.93S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 409300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.8113
+            },
+            {
+              "word": "raise",
+              "offset": "PT41.05S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 410500000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.884238
+            },
+            {
+              "word": "alerts",
+              "offset": "PT41.43S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 414300000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.853681
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT42.89S",
+      "duration": "PT7.81S",
+      "offsetInTicks": 428900000.0,
+      "durationInTicks": 78100000.0,
+      "nBest": [
+        {
+          "confidence": 0.82900906,
+          "lexical": "email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "itn": "email text messages etc when exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "maskedITN": "Email text messages etc When exceptional conditions occurs such as CPU utilization crossing a certain threshold",
+          "display": "Email, text messages, etc. When exceptional conditions occurs, such as CPU utilization, crossing a certain threshold.",
+          "words": [
+            {
+              "word": "email",
+              "offset": "PT42.91S",
+              "duration": "PT0.78S",
+              "offsetInTicks": 429100000.0,
+              "durationInTicks": 7800000.0,
+              "confidence": 0.89718
+            },
+            {
+              "word": "text",
+              "offset": "PT43.69S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 436900000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.927051
+            },
+            {
+              "word": "messages",
+              "offset": "PT44.15S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 441500000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.907546
+            },
+            {
+              "word": "etc",
+              "offset": "PT44.65S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 446500000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.922331
+            },
+            {
+              "word": "when",
+              "offset": "PT45.72S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 457200000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.650382
+            },
+            {
+              "word": "exceptional",
+              "offset": "PT45.93S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 459300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.696595
+            },
+            {
+              "word": "conditions",
+              "offset": "PT46.43S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 464300000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.860934
+            },
+            {
+              "word": "occurs",
+              "offset": "PT46.87S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 468700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.851578
+            },
+            {
+              "word": "such",
+              "offset": "PT47.23S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 472300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.514987
+            },
+            {
+              "word": "as",
+              "offset": "PT47.43S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 474300000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.919495
+            },
+            {
+              "word": "CPU",
+              "offset": "PT47.64S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 476400000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.610465
+            },
+            {
+              "word": "utilization",
+              "offset": "PT48.35S",
+              "duration": "PT0.82S",
+              "offsetInTicks": 483500000.0,
+              "durationInTicks": 8200000.0,
+              "confidence": 0.875545
+            },
+            {
+              "word": "crossing",
+              "offset": "PT49.17S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 491700000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.806713
+            },
+            {
+              "word": "a",
+              "offset": "PT49.57S",
+              "duration": "PT0.06S",
+              "offsetInTicks": 495700000.0,
+              "durationInTicks": 600000.0,
+              "confidence": 0.849757
+            },
+            {
+              "word": "certain",
+              "offset": "PT49.63S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 496300000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.861215
+            },
+            {
+              "word": "threshold",
+              "offset": "PT49.89S",
+              "duration": "PT0.78S",
+              "offsetInTicks": 498900000.0,
+              "durationInTicks": 7800000.0,
+              "confidence": 0.852415
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT51.41S",
+      "duration": "PT16.51S",
+      "offsetInTicks": 514100000.0,
+      "durationInTicks": 165100000.0,
+      "nBest": [
+        {
+          "confidence": 0.8750273,
+          "lexical": "it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code",
+          "itn": "it includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc this is done through defining custom metrics in your code",
+          "maskedITN": "It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application such as what pages they are viewing how much time they spend on each page etc This is done through defining custom metrics in your code",
+          "display": "It includes powerful analytic tools to help you diagnose issues and also to understand how users are using your application, such as what pages they are viewing, how much time they spend on each page, etc. This is done through defining custom metrics in your code.",
+          "words": [
+            {
+              "word": "it",
+              "offset": "PT51.43S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 514300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.92394
+            },
+            {
+              "word": "includes",
+              "offset": "PT51.63S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 516300000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.871122
+            },
+            {
+              "word": "powerful",
+              "offset": "PT52.05S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 520500000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.783521
+            },
+            {
+              "word": "analytic",
+              "offset": "PT52.43S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 524300000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.810388
+            },
+            {
+              "word": "tools",
+              "offset": "PT52.97S",
+              "duration": "PT0.91S",
+              "offsetInTicks": 529700000.0,
+              "durationInTicks": 9100000.0,
+              "confidence": 0.942716
+            },
+            {
+              "word": "to",
+              "offset": "PT53.9S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 539000000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.918039
+            },
+            {
+              "word": "help",
+              "offset": "PT54.07S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 540700000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.943015
+            },
+            {
+              "word": "you",
+              "offset": "PT54.29S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 542900000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.85064
+            },
+            {
+              "word": "diagnose",
+              "offset": "PT54.37S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 543700000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.881268
+            },
+            {
+              "word": "issues",
+              "offset": "PT54.87S",
+              "duration": "PT0.47S",
+              "offsetInTicks": 548700000.0,
+              "durationInTicks": 4700000.0,
+              "confidence": 0.883986
+            },
+            {
+              "word": "and",
+              "offset": "PT55.34S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 553400000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.934109
+            },
+            {
+              "word": "also",
+              "offset": "PT55.55S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 555500000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.913294
+            },
+            {
+              "word": "to",
+              "offset": "PT55.83S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 558300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.881464
+            },
+            {
+              "word": "understand",
+              "offset": "PT55.93S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 559300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.845014
+            },
+            {
+              "word": "how",
+              "offset": "PT56.39S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 563900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.937536
+            },
+            {
+              "word": "users",
+              "offset": "PT56.53S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 565300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.820305
+            },
+            {
+              "word": "are",
+              "offset": "PT57.03S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 570300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.935412
+            },
+            {
+              "word": "using",
+              "offset": "PT57.15S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 571500000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.928264
+            },
+            {
+              "word": "your",
+              "offset": "PT57.52S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 575200000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.906116
+            },
+            {
+              "word": "application",
+              "offset": "PT57.73S",
+              "duration": "PT0.96S",
+              "offsetInTicks": 577300000.0,
+              "durationInTicks": 9600000.0,
+              "confidence": 0.939681
+            },
+            {
+              "word": "such",
+              "offset": "PT59.13S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 591300000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.808989
+            },
+            {
+              "word": "as",
+              "offset": "PT59.53S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 595300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.955943
+            },
+            {
+              "word": "what",
+              "offset": "PT59.73S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 597300000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.631199
+            },
+            {
+              "word": "pages",
+              "offset": "PT59.95S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 599500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.808674
+            },
+            {
+              "word": "they",
+              "offset": "PT1M0.35S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 603500000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.733836
+            },
+            {
+              "word": "are",
+              "offset": "PT1M0.46S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 604600000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.888891
+            },
+            {
+              "word": "viewing",
+              "offset": "PT1M0.55S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 605500000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.827987
+            },
+            {
+              "word": "how",
+              "offset": "PT1M1.01S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 610100000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.745661
+            },
+            {
+              "word": "much",
+              "offset": "PT1M1.11S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 611100000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.946759
+            },
+            {
+              "word": "time",
+              "offset": "PT1M1.31S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 613100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.937113
+            },
+            {
+              "word": "they",
+              "offset": "PT1M1.57S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 615700000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.803031
+            },
+            {
+              "word": "spend",
+              "offset": "PT1M1.66S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 616600000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.934446
+            },
+            {
+              "word": "on",
+              "offset": "PT1M1.95S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 619500000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.9134
+            },
+            {
+              "word": "each",
+              "offset": "PT1M2.09S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 620900000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.923208
+            },
+            {
+              "word": "page",
+              "offset": "PT1M2.27S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 622700000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.948674
+            },
+            {
+              "word": "etc",
+              "offset": "PT1M2.87S",
+              "duration": "PT0.9S",
+              "offsetInTicks": 628700000.0,
+              "durationInTicks": 9000000.0,
+              "confidence": 0.909189
+            },
+            {
+              "word": "this",
+              "offset": "PT1M4S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 640000000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.607271
+            },
+            {
+              "word": "is",
+              "offset": "PT1M4.23S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 642300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.943906
+            },
+            {
+              "word": "done",
+              "offset": "PT1M4.39S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 643900000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.899294
+            },
+            {
+              "word": "through",
+              "offset": "PT1M4.69S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 646900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.942768
+            },
+            {
+              "word": "defining",
+              "offset": "PT1M5.07S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 650700000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.721419
+            },
+            {
+              "word": "custom",
+              "offset": "PT1M6.01S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 660100000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.860523
+            },
+            {
+              "word": "metrics",
+              "offset": "PT1M6.45S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 664500000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.872893
+            },
+            {
+              "word": "in",
+              "offset": "PT1M6.93S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 669300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.916563
+            },
+            {
+              "word": "your",
+              "offset": "PT1M7.07S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 670700000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.95164
+            },
+            {
+              "word": "code",
+              "offset": "PT1M7.31S",
+              "duration": "PT0.59S",
+              "offsetInTicks": 673100000.0,
+              "durationInTicks": 5900000.0,
+              "confidence": 0.939426
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT1M14.59S",
+      "duration": "PT0.87S",
+      "offsetInTicks": 745900000.0,
+      "durationInTicks": 8700000.0,
+      "nBest": [
+        {
+          "confidence": 0.08116057,
+          "lexical": "paul",
+          "itn": "paul",
+          "maskedITN": "Paul",
+          "display": "Paul.",
+          "words": [
+            {
+              "word": "paul",
+              "offset": "PT1M14.61S",
+              "duration": "PT0.83S",
+              "offsetInTicks": 746100000.0,
+              "durationInTicks": 8300000.0,
+              "confidence": 0.081161
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

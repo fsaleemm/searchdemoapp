@@ -1,0 +1,1178 @@
+{
+  "source": "https://myaudiostorageaccount.blob.core.windows.net/audio-input/TestRecording.m4a",
+  "timeStamp": "2020-12-02T15:32:20Z",
+  "durationTicks": 0,
+  "duration": "PT1M0.75S",
+  "outputdisplay": "site no you can you can you can't answer that yet that tenant you cannot because if you couldn't it would be a problem you can but but we we recording now your voice my voice we can probably save it you see that might have some of my screen right somebody can chime in my can say couple of words alright and and see how it goes we can do that right yeah i'm recording now so it's one minute of recording would be fine i guess or we can promise save it as wave file and upload it right yes that's right yeah",
+  "combinedRecognizedPhrases": [
+    {
+      "channel": 0,
+      "lexical": "site no you can you can you can't answer that yet that tenant you cannot because if you couldn't it would be a problem you can but but we we recording now your voice my voice we can probably save it you see that might have some of my screen right somebody can chime in my can say couple of words alright and and see how it goes we can do that right yeah i'm recording now so it's one minute of recording would be fine i guess or we can promise save it as wave file and upload it right yes that's right yeah",
+      "itn": "site no you can you can you can't answer that yet that tenant you cannot because if you couldn't it would be a problem you can but but we we recording now your voice my voice we can probably save it you see that might have some of my screen right somebody can chime in my can say couple of words alright and and see how it goes we can do that right yeah i'm recording now so it's one minute of recording would be fine i guess or we can promise save it as wave file and upload it right yes that's right yeah",
+      "maskedITN": "Site No you can you can You can't answer that yet That tenant you cannot because if you couldn't it would be a problem you can But but we we recording now Your voice my voice We can probably save it You see that might have some of my screen right Somebody can chime in my can say Couple of words Alright and and see how it Goes We can do that right Yeah I'm recording now so it's One minute of recording would be Fine I guess Or we can promise save it as wave File and upload it right Yes that's right yeah",
+      "display": "Site. No, you can you can. You can't answer that yet. That tenant you cannot, because if you couldn't, it would be a problem you can. But but we we recording now. Your voice, my voice. We can probably save it. You see, that might have some of my screen, right? Somebody can chime in, my can say. Couple of words. Alright, and and see how it. Goes. We can do that, right? Yeah. I'm recording now so it's. One minute of recording would be. Fine I guess. Or we can promise save it as wave. File and upload it right. Yes, that's right, yeah."
+    }
+  ],
+  "recognizedPhrases": [
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT10.56S",
+      "duration": "PT0.34S",
+      "offsetInTicks": 105600000.0,
+      "durationInTicks": 3400000.0,
+      "nBest": [
+        {
+          "confidence": 0.457777768,
+          "lexical": "site",
+          "itn": "site",
+          "maskedITN": "Site",
+          "display": "Site.",
+          "words": [
+            {
+              "word": "site",
+              "offset": "PT10.56S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 105600000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.457778
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT18.53S",
+      "duration": "PT7.03S",
+      "offsetInTicks": 185300000.0,
+      "durationInTicks": 70300000.0,
+      "nBest": [
+        {
+          "confidence": 0.8375759,
+          "lexical": "no you can you can you can't answer that yet that tenant you cannot because if you couldn't it would be a problem you can",
+          "itn": "no you can you can you can't answer that yet that tenant you cannot because if you couldn't it would be a problem you can",
+          "maskedITN": "No you can you can You can't answer that yet That tenant you cannot because if you couldn't it would be a problem you can",
+          "display": "No, you can you can. You can't answer that yet. That tenant you cannot, because if you couldn't, it would be a problem you can.",
+          "words": [
+            {
+              "word": "no",
+              "offset": "PT18.53S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 185300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.803639
+            },
+            {
+              "word": "you",
+              "offset": "PT18.99S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 189900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.920031
+            },
+            {
+              "word": "can",
+              "offset": "PT19.13S",
+              "duration": "PT0.33S",
+              "offsetInTicks": 191300000.0,
+              "durationInTicks": 3300000.0,
+              "confidence": 0.915376
+            },
+            {
+              "word": "you",
+              "offset": "PT19.46S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 194600000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.925712
+            },
+            {
+              "word": "can",
+              "offset": "PT19.57S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 195700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.927514
+            },
+            {
+              "word": "you",
+              "offset": "PT20.13S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 201300000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.921972
+            },
+            {
+              "word": "can't",
+              "offset": "PT20.45S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 204500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.792397
+            },
+            {
+              "word": "answer",
+              "offset": "PT20.85S",
+              "duration": "PT0.23S",
+              "offsetInTicks": 208500000.0,
+              "durationInTicks": 2300000.0,
+              "confidence": 0.640688
+            },
+            {
+              "word": "that",
+              "offset": "PT21.08S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 210800000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.891427
+            },
+            {
+              "word": "yet",
+              "offset": "PT21.37S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 213700000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.71438
+            },
+            {
+              "word": "that",
+              "offset": "PT21.71S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 217100000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.749181
+            },
+            {
+              "word": "tenant",
+              "offset": "PT21.93S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 219300000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.571431
+            },
+            {
+              "word": "you",
+              "offset": "PT22.31S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 223100000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.743867
+            },
+            {
+              "word": "cannot",
+              "offset": "PT22.41S",
+              "duration": "PT0.49S",
+              "offsetInTicks": 224100000.0,
+              "durationInTicks": 4900000.0,
+              "confidence": 0.897074
+            },
+            {
+              "word": "because",
+              "offset": "PT22.92S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 229200000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.794846
+            },
+            {
+              "word": "if",
+              "offset": "PT23.31S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 233100000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.876117
+            },
+            {
+              "word": "you",
+              "offset": "PT23.43S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 234300000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.929876
+            },
+            {
+              "word": "couldn't",
+              "offset": "PT23.55S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 235500000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.802059
+            },
+            {
+              "word": "it",
+              "offset": "PT23.91S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 239100000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.773666
+            },
+            {
+              "word": "would",
+              "offset": "PT24.05S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 240500000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.952096
+            },
+            {
+              "word": "be",
+              "offset": "PT24.23S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 242300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.88727
+            },
+            {
+              "word": "a",
+              "offset": "PT24.33S",
+              "duration": "PT0.06S",
+              "offsetInTicks": 243300000.0,
+              "durationInTicks": 600000.0,
+              "confidence": 0.870275
+            },
+            {
+              "word": "problem",
+              "offset": "PT24.39S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 243900000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.959736
+            },
+            {
+              "word": "you",
+              "offset": "PT25.02S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 250200000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.74773
+            },
+            {
+              "word": "can",
+              "offset": "PT25.23S",
+              "duration": "PT0.33S",
+              "offsetInTicks": 252300000.0,
+              "durationInTicks": 3300000.0,
+              "confidence": 0.960188
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT26.2S",
+      "duration": "PT2.78S",
+      "offsetInTicks": 262000000.0,
+      "durationInTicks": 27800000.0,
+      "nBest": [
+        {
+          "confidence": 0.8469646,
+          "lexical": "but but we we recording now",
+          "itn": "but but we we recording now",
+          "maskedITN": "But but we we recording now",
+          "display": "But but we we recording now.",
+          "words": [
+            {
+              "word": "but",
+              "offset": "PT26.2S",
+              "duration": "PT0.63S",
+              "offsetInTicks": 262000000.0,
+              "durationInTicks": 6300000.0,
+              "confidence": 0.905662
+            },
+            {
+              "word": "but",
+              "offset": "PT26.85S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 268500000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.79383
+            },
+            {
+              "word": "we",
+              "offset": "PT27.16S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 271600000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.955174
+            },
+            {
+              "word": "we",
+              "offset": "PT27.5S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 275000000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.814059
+            },
+            {
+              "word": "recording",
+              "offset": "PT27.68S",
+              "duration": "PT0.53S",
+              "offsetInTicks": 276800000.0,
+              "durationInTicks": 5300000.0,
+              "confidence": 0.716029
+            },
+            {
+              "word": "now",
+              "offset": "PT28.21S",
+              "duration": "PT0.77S",
+              "offsetInTicks": 282100000.0,
+              "durationInTicks": 7700000.0,
+              "confidence": 0.777594
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT29S",
+      "duration": "PT5.23S",
+      "offsetInTicks": 290000000.0,
+      "durationInTicks": 52300000.0,
+      "nBest": [
+        {
+          "confidence": 0.8469646,
+          "lexical": "your voice my voice we can probably save it you see that might have some of my screen right",
+          "itn": "your voice my voice we can probably save it you see that might have some of my screen right",
+          "maskedITN": "Your voice my voice We can probably save it You see that might have some of my screen right",
+          "display": "Your voice, my voice. We can probably save it. You see, that might have some of my screen, right?",
+          "words": [
+            {
+              "word": "your",
+              "offset": "PT29S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 290000000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.799784
+            },
+            {
+              "word": "voice",
+              "offset": "PT29.37S",
+              "duration": "PT0.33S",
+              "offsetInTicks": 293700000.0,
+              "durationInTicks": 3300000.0,
+              "confidence": 0.95189
+            },
+            {
+              "word": "my",
+              "offset": "PT29.7S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 297000000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.746576
+            },
+            {
+              "word": "voice",
+              "offset": "PT29.9S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 299000000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.95566
+            },
+            {
+              "word": "we",
+              "offset": "PT30.32S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 303200000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.666977
+            },
+            {
+              "word": "can",
+              "offset": "PT30.46S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 304600000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.924153
+            },
+            {
+              "word": "probably",
+              "offset": "PT30.66S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 306600000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.845773
+            },
+            {
+              "word": "save",
+              "offset": "PT31.02S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 310200000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.82821
+            },
+            {
+              "word": "it",
+              "offset": "PT31.44S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 314400000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.948524
+            },
+            {
+              "word": "you",
+              "offset": "PT32.02S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 320200000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.576378
+            },
+            {
+              "word": "see",
+              "offset": "PT32.26S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 322600000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.929087
+            },
+            {
+              "word": "that",
+              "offset": "PT32.46S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 324600000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.840803
+            },
+            {
+              "word": "might",
+              "offset": "PT32.63S",
+              "duration": "PT0.19S",
+              "offsetInTicks": 326300000.0,
+              "durationInTicks": 1900000.0,
+              "confidence": 0.795668
+            },
+            {
+              "word": "have",
+              "offset": "PT32.82S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 328200000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.664604
+            },
+            {
+              "word": "some",
+              "offset": "PT32.94S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 329400000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.843569
+            },
+            {
+              "word": "of",
+              "offset": "PT33.16S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 331600000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.807618
+            },
+            {
+              "word": "my",
+              "offset": "PT33.34S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 333400000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.924045
+            },
+            {
+              "word": "screen",
+              "offset": "PT33.46S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 334600000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.95346
+            },
+            {
+              "word": "right",
+              "offset": "PT33.9S",
+              "duration": "PT0.33S",
+              "offsetInTicks": 339000000.0,
+              "durationInTicks": 3300000.0,
+              "confidence": 0.965303
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT34.8S",
+      "duration": "PT2.2S",
+      "offsetInTicks": 348000000.0,
+      "durationInTicks": 22000000.0,
+      "nBest": [
+        {
+          "confidence": 0.8388394,
+          "lexical": "somebody can chime in my can say",
+          "itn": "somebody can chime in my can say",
+          "maskedITN": "Somebody can chime in my can say",
+          "display": "Somebody can chime in, my can say.",
+          "words": [
+            {
+              "word": "somebody",
+              "offset": "PT34.8S",
+              "duration": "PT0.51S",
+              "offsetInTicks": 348000000.0,
+              "durationInTicks": 5100000.0,
+              "confidence": 0.810735
+            },
+            {
+              "word": "can",
+              "offset": "PT35.31S",
+              "duration": "PT0.19S",
+              "offsetInTicks": 353100000.0,
+              "durationInTicks": 1900000.0,
+              "confidence": 0.866073
+            },
+            {
+              "word": "chime",
+              "offset": "PT35.5S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 355000000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.761355
+            },
+            {
+              "word": "in",
+              "offset": "PT35.82S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 358200000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.930939
+            },
+            {
+              "word": "my",
+              "offset": "PT36.16S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 361600000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.942336
+            },
+            {
+              "word": "can",
+              "offset": "PT36.48S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 364800000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.55937
+            },
+            {
+              "word": "say",
+              "offset": "PT36.74S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 367400000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.834158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT37S",
+      "duration": "PT1.04S",
+      "offsetInTicks": 370000000.0,
+      "durationInTicks": 10400000.0,
+      "nBest": [
+        {
+          "confidence": 0.8388394,
+          "lexical": "couple of words",
+          "itn": "couple of words",
+          "maskedITN": "Couple of words",
+          "display": "Couple of words.",
+          "words": [
+            {
+              "word": "couple",
+              "offset": "PT37S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 370000000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.817204
+            },
+            {
+              "word": "of",
+              "offset": "PT37.34S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 373400000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.938074
+            },
+            {
+              "word": "words",
+              "offset": "PT37.44S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 374400000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.909964
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT40.05S",
+      "duration": "PT2.07S",
+      "offsetInTicks": 400500000.0,
+      "durationInTicks": 20700000.0,
+      "nBest": [
+        {
+          "confidence": 0.9001893,
+          "lexical": "alright and and see how it",
+          "itn": "alright and and see how it",
+          "maskedITN": "Alright and and see how it",
+          "display": "Alright, and and see how it.",
+          "words": [
+            {
+              "word": "alright",
+              "offset": "PT40.05S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 400500000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.860584
+            },
+            {
+              "word": "and",
+              "offset": "PT40.6S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 406000000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.920144
+            },
+            {
+              "word": "and",
+              "offset": "PT40.88S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 408800000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.895049
+            },
+            {
+              "word": "see",
+              "offset": "PT41.44S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 414400000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.86867
+            },
+            {
+              "word": "how",
+              "offset": "PT41.84S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 418400000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.956948
+            },
+            {
+              "word": "it",
+              "offset": "PT42.02S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 420200000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.92627
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT42.12S",
+      "duration": "PT0.7S",
+      "offsetInTicks": 421200000.0,
+      "durationInTicks": 7000000.0,
+      "nBest": [
+        {
+          "confidence": 0.9001893,
+          "lexical": "goes",
+          "itn": "goes",
+          "maskedITN": "Goes",
+          "display": "Goes.",
+          "words": [
+            {
+              "word": "goes",
+              "offset": "PT42.12S",
+              "duration": "PT0.7S",
+              "offsetInTicks": 421200000.0,
+              "durationInTicks": 7000000.0,
+              "confidence": 0.951795
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT43.22S",
+      "duration": "PT1.23S",
+      "offsetInTicks": 432200000.0,
+      "durationInTicks": 12300000.0,
+      "nBest": [
+        {
+          "confidence": 0.9001893,
+          "lexical": "we can do that right",
+          "itn": "we can do that right",
+          "maskedITN": "We can do that right",
+          "display": "We can do that, right?",
+          "words": [
+            {
+              "word": "we",
+              "offset": "PT43.22S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 432200000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.576146
+            },
+            {
+              "word": "can",
+              "offset": "PT43.42S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 434200000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.937098
+            },
+            {
+              "word": "do",
+              "offset": "PT43.58S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 435800000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.947166
+            },
+            {
+              "word": "that",
+              "offset": "PT43.74S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 437400000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.938079
+            },
+            {
+              "word": "right",
+              "offset": "PT44.04S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 440400000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.955435
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT45.13S",
+      "duration": "PT0.55S",
+      "offsetInTicks": 451300000.0,
+      "durationInTicks": 5500000.0,
+      "nBest": [
+        {
+          "confidence": 0.856320143,
+          "lexical": "yeah",
+          "itn": "yeah",
+          "maskedITN": "Yeah",
+          "display": "Yeah.",
+          "words": [
+            {
+              "word": "yeah",
+              "offset": "PT45.13S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 451300000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.937883
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT46.3S",
+      "duration": "PT1.87S",
+      "offsetInTicks": 463000000.0,
+      "durationInTicks": 18700000.0,
+      "nBest": [
+        {
+          "confidence": 0.856320143,
+          "lexical": "i'm recording now so it's",
+          "itn": "i'm recording now so it's",
+          "maskedITN": "I'm recording now so it's",
+          "display": "I'm recording now so it's.",
+          "words": [
+            {
+              "word": "i'm",
+              "offset": "PT46.3S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 463000000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.888973
+            },
+            {
+              "word": "recording",
+              "offset": "PT46.61S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 466100000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.768266
+            },
+            {
+              "word": "now",
+              "offset": "PT47.01S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 470100000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.897377
+            },
+            {
+              "word": "so",
+              "offset": "PT47.39S",
+              "duration": "PT0.44S",
+              "offsetInTicks": 473900000.0,
+              "durationInTicks": 4400000.0,
+              "confidence": 0.732659
+            },
+            {
+              "word": "it's",
+              "offset": "PT47.83S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 478300000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.903421
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT48.19S",
+      "duration": "PT1.48S",
+      "offsetInTicks": 481900000.0,
+      "durationInTicks": 14800000.0,
+      "nBest": [
+        {
+          "confidence": 0.856320143,
+          "lexical": "one minute of recording would be",
+          "itn": "one minute of recording would be",
+          "maskedITN": "One minute of recording would be",
+          "display": "One minute of recording would be.",
+          "words": [
+            {
+              "word": "one",
+              "offset": "PT48.19S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 481900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.829906
+            },
+            {
+              "word": "minute",
+              "offset": "PT48.53S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 485300000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.842466
+            },
+            {
+              "word": "of",
+              "offset": "PT48.79S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 487900000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.870777
+            },
+            {
+              "word": "recording",
+              "offset": "PT48.93S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 489300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.714218
+            },
+            {
+              "word": "would",
+              "offset": "PT49.39S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 493900000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.786304
+            },
+            {
+              "word": "be",
+              "offset": "PT49.55S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 495500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.930816
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT49.67S",
+      "duration": "PT0.94S",
+      "offsetInTicks": 496700000.0,
+      "durationInTicks": 9400000.0,
+      "nBest": [
+        {
+          "confidence": 0.856320143,
+          "lexical": "fine i guess",
+          "itn": "fine i guess",
+          "maskedITN": "Fine I guess",
+          "display": "Fine I guess.",
+          "words": [
+            {
+              "word": "fine",
+              "offset": "PT49.67S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 496700000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.931744
+            },
+            {
+              "word": "i",
+              "offset": "PT50.05S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 500500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.904358
+            },
+            {
+              "word": "guess",
+              "offset": "PT50.13S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 501300000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.957818
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 1,
+      "offset": "PT53.92S",
+      "duration": "PT1.64S",
+      "offsetInTicks": 539200000.0,
+      "durationInTicks": 16400000.0,
+      "nBest": [
+        {
+          "confidence": 0.8232152,
+          "lexical": "or we can promise save it as wave",
+          "itn": "or we can promise save it as wave",
+          "maskedITN": "Or we can promise save it as wave",
+          "display": "Or we can promise save it as wave.",
+          "words": [
+            {
+              "word": "or",
+              "offset": "PT53.92S",
+              "duration": "PT0.21S",
+              "offsetInTicks": 539200000.0,
+              "durationInTicks": 2100000.0,
+              "confidence": 0.663817
+            },
+            {
+              "word": "we",
+              "offset": "PT54.13S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 541300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.900105
+            },
+            {
+              "word": "can",
+              "offset": "PT54.23S",
+              "duration": "PT0.19S",
+              "offsetInTicks": 542300000.0,
+              "durationInTicks": 1900000.0,
+              "confidence": 0.905545
+            },
+            {
+              "word": "promise",
+              "offset": "PT54.42S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 544200000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.679679
+            },
+            {
+              "word": "save",
+              "offset": "PT54.81S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 548100000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.704738
+            },
+            {
+              "word": "it",
+              "offset": "PT55.06S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 550600000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.843216
+            },
+            {
+              "word": "as",
+              "offset": "PT55.15S",
+              "duration": "PT0.15S",
+              "offsetInTicks": 551500000.0,
+              "durationInTicks": 1500000.0,
+              "confidence": 0.955284
+            },
+            {
+              "word": "wave",
+              "offset": "PT55.3S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 553000000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.473987
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT55.56S",
+      "duration": "PT1.58S",
+      "offsetInTicks": 555600000.0,
+      "durationInTicks": 15800000.0,
+      "nBest": [
+        {
+          "confidence": 0.8232152,
+          "lexical": "file and upload it right",
+          "itn": "file and upload it right",
+          "maskedITN": "File and upload it right",
+          "display": "File and upload it right.",
+          "words": [
+            {
+              "word": "file",
+              "offset": "PT55.56S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 555600000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.929172
+            },
+            {
+              "word": "and",
+              "offset": "PT55.92S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 559200000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.901693
+            },
+            {
+              "word": "upload",
+              "offset": "PT56.06S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 560600000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.923545
+            },
+            {
+              "word": "it",
+              "offset": "PT56.47S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 564700000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.963324
+            },
+            {
+              "word": "right",
+              "offset": "PT56.73S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 567300000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.923305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 2,
+      "offset": "PT57.94S",
+      "duration": "PT1.48S",
+      "offsetInTicks": 579400000.0,
+      "durationInTicks": 14800000.0,
+      "nBest": [
+        {
+          "confidence": 0.880493,
+          "lexical": "yes that's right yeah",
+          "itn": "yes that's right yeah",
+          "maskedITN": "Yes that's right yeah",
+          "display": "Yes, that's right, yeah.",
+          "words": [
+            {
+              "word": "yes",
+              "offset": "PT57.94S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 579400000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.818371
+            },
+            {
+              "word": "that's",
+              "offset": "PT58.34S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 583400000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.877831
+            },
+            {
+              "word": "right",
+              "offset": "PT58.56S",
+              "duration": "PT0.27S",
+              "offsetInTicks": 585600000.0,
+              "durationInTicks": 2700000.0,
+              "confidence": 0.918002
+            },
+            {
+              "word": "yeah",
+              "offset": "PT59.01S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 590100000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.917828
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

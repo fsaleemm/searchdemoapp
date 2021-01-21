@@ -1,0 +1,2640 @@
+{
+  "source": "https://myaudiostorageaccount.blob.core.windows.net/audio-input/RJ_Narration.m4a",
+  "timeStamp": "2021-01-12T23:00:52Z",
+  "durationTicks": 0,
+  "duration": "PT1M5.18S",
+  "combinedRecognizedPhrases": [
+    {
+      "channel": 0,
+      "lexical": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you images you can also export the model itself for offline use",
+      "itn": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you images you can also export the model itself for offline use",
+      "maskedITN": "What is Azure custom vision Azure Custom Vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics Unlike the Computer Vision Service Custom Vision allows you to specify the labels and train custom models to detect them What does it do The Custom Vision Service uses a machine learning algorithm to analyze images You the developer submits it groups of images that feature an lack The characteristics in question you label the images yourself at the time of submission Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images Once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you Images you can also export the model itself for offline use",
+      "display": "What is Azure custom vision Azure? Custom Vision is an image recognition service that lets you build, deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics. Unlike the Computer Vision Service, Custom Vision allows you to specify the labels and train custom models to detect them. What does it do? The Custom Vision Service uses a machine learning algorithm to analyze images. You, the developer, submits it groups of images that feature an lack. The characteristics in question, you label the images yourself at the time of submission. Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images. Once the algorithm is trained, you contest retrain and eventually use it in your image recognition app to classifying you. Images you can also export the model itself for offline use."
+    },
+    {
+      "channel": 1,
+      "lexical": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects two images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you images you can also export the model itself for offline use",
+      "itn": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects 2 images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you images you can also export the model itself for offline use",
+      "maskedITN": "What is Azure custom vision Azure Custom Vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects 2 images according to their visual characteristics Unlike the Computer Vision Service Custom Vision allows you to specify the labels and train custom models to detect them What does it do The Custom Vision Service uses a machine learning algorithm to analyze images You the developer submits it groups of images that feature an lack The characteristics in question you label the images yourself at the time of submission Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images Once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you Images you can also export the model itself for offline use",
+      "display": "What is Azure custom vision Azure? Custom Vision is an image recognition service that lets you build, deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects. 2 images according to their visual characteristics. Unlike the Computer Vision Service, Custom Vision allows you to specify the labels and train custom models to detect them. What does it do? The Custom Vision Service uses a machine learning algorithm to analyze images. You, the developer, submits it groups of images that feature an lack. The characteristics in question, you label the images yourself at the time of submission. Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images. Once the algorithm is trained, you contest retrain and eventually use it in your image recognition app to classifying you. Images you can also export the model itself for offline use."
+    }
+  ],
+  "recognizedPhrases": [
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT1.83S",
+      "duration": "PT25.78S",
+      "offsetInTicks": 18300000.0,
+      "durationInTicks": 257800000.0,
+      "nBest": [
+        {
+          "confidence": 0.87043345,
+          "lexical": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them",
+          "itn": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them",
+          "maskedITN": "What is Azure custom vision Azure Custom Vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics Unlike the Computer Vision Service Custom Vision allows you to specify the labels and train custom models to detect them",
+          "display": "What is Azure custom vision Azure? Custom Vision is an image recognition service that lets you build, deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects to images according to their visual characteristics. Unlike the Computer Vision Service, Custom Vision allows you to specify the labels and train custom models to detect them.",
+          "words": [
+            {
+              "word": "what",
+              "offset": "PT1.85S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 18500000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.931571
+            },
+            {
+              "word": "is",
+              "offset": "PT2.27S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 22700000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.919741
+            },
+            {
+              "word": "azure",
+              "offset": "PT2.64S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 26400000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.68336
+            },
+            {
+              "word": "custom",
+              "offset": "PT3.07S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 30700000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.836217
+            },
+            {
+              "word": "vision",
+              "offset": "PT3.57S",
+              "duration": "PT0.82S",
+              "offsetInTicks": 35700000.0,
+              "durationInTicks": 8200000.0,
+              "confidence": 0.909077
+            },
+            {
+              "word": "azure",
+              "offset": "PT4.52S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 45200000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.531719
+            },
+            {
+              "word": "custom",
+              "offset": "PT4.93S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 49300000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.766854
+            },
+            {
+              "word": "vision",
+              "offset": "PT5.29S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 52900000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.95816
+            },
+            {
+              "word": "is",
+              "offset": "PT5.69S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 56900000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.928558
+            },
+            {
+              "word": "an",
+              "offset": "PT5.95S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 59500000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.888446
+            },
+            {
+              "word": "image",
+              "offset": "PT6.11S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 61100000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.948319
+            },
+            {
+              "word": "recognition",
+              "offset": "PT6.43S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 64300000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.894781
+            },
+            {
+              "word": "service",
+              "offset": "PT7.01S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 70100000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.929027
+            },
+            {
+              "word": "that",
+              "offset": "PT7.59S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 75900000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.803446
+            },
+            {
+              "word": "lets",
+              "offset": "PT7.79S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 77900000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.912082
+            },
+            {
+              "word": "you",
+              "offset": "PT8.11S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 81100000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.92334
+            },
+            {
+              "word": "build",
+              "offset": "PT8.23S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 82300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.949183
+            },
+            {
+              "word": "deploy",
+              "offset": "PT8.75S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 87500000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.81173
+            },
+            {
+              "word": "and",
+              "offset": "PT9.3S",
+              "duration": "PT0.19S",
+              "offsetInTicks": 93000000.0,
+              "durationInTicks": 1900000.0,
+              "confidence": 0.91388
+            },
+            {
+              "word": "improve",
+              "offset": "PT9.49S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 94900000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.92082
+            },
+            {
+              "word": "your",
+              "offset": "PT9.95S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 99500000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.932332
+            },
+            {
+              "word": "own",
+              "offset": "PT10.15S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 101500000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.912223
+            },
+            {
+              "word": "image",
+              "offset": "PT10.37S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 103700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.913794
+            },
+            {
+              "word": "identifiers",
+              "offset": "PT10.73S",
+              "duration": "PT1S",
+              "offsetInTicks": 107300000.0,
+              "durationInTicks": 10000000.0,
+              "confidence": 0.915031
+            },
+            {
+              "word": "and",
+              "offset": "PT12S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 120000000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.828363
+            },
+            {
+              "word": "image",
+              "offset": "PT12.29S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 122900000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.799901
+            },
+            {
+              "word": "identifier",
+              "offset": "PT12.57S",
+              "duration": "PT0.78S",
+              "offsetInTicks": 125700000.0,
+              "durationInTicks": 7800000.0,
+              "confidence": 0.8976
+            },
+            {
+              "word": "applies",
+              "offset": "PT13.35S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 133500000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.801808
+            },
+            {
+              "word": "labels",
+              "offset": "PT13.91S",
+              "duration": "PT0.75S",
+              "offsetInTicks": 139100000.0,
+              "durationInTicks": 7500000.0,
+              "confidence": 0.865911
+            },
+            {
+              "word": "which",
+              "offset": "PT14.72S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 147200000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.662602
+            },
+            {
+              "word": "represents",
+              "offset": "PT15.13S",
+              "duration": "PT0.49S",
+              "offsetInTicks": 151300000.0,
+              "durationInTicks": 4900000.0,
+              "confidence": 0.827369
+            },
+            {
+              "word": "classes",
+              "offset": "PT15.62S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 156200000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.871564
+            },
+            {
+              "word": "or",
+              "offset": "PT16.05S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 160500000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.894346
+            },
+            {
+              "word": "objects",
+              "offset": "PT16.23S",
+              "duration": "PT0.65S",
+              "offsetInTicks": 162300000.0,
+              "durationInTicks": 6500000.0,
+              "confidence": 0.9286
+            },
+            {
+              "word": "to",
+              "offset": "PT17.02S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 170200000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.899836
+            },
+            {
+              "word": "images",
+              "offset": "PT17.31S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 173100000.0,
+              "durationInTicks": 8000000.0,
+              "confidence": 0.86735
+            },
+            {
+              "word": "according",
+              "offset": "PT18.13S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 181300000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.819512
+            },
+            {
+              "word": "to",
+              "offset": "PT18.65S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 186500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.913605
+            },
+            {
+              "word": "their",
+              "offset": "PT18.77S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 187700000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.894841
+            },
+            {
+              "word": "visual",
+              "offset": "PT18.97S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 189700000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.843391
+            },
+            {
+              "word": "characteristics",
+              "offset": "PT19.31S",
+              "duration": "PT1.22S",
+              "offsetInTicks": 193100000.0,
+              "durationInTicks": 12200000.0,
+              "confidence": 0.966143
+            },
+            {
+              "word": "unlike",
+              "offset": "PT20.74S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 207400000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.711019
+            },
+            {
+              "word": "the",
+              "offset": "PT21.15S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 211500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.890652
+            },
+            {
+              "word": "computer",
+              "offset": "PT21.23S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 212300000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.835321
+            },
+            {
+              "word": "vision",
+              "offset": "PT21.62S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 216200000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.910015
+            },
+            {
+              "word": "service",
+              "offset": "PT21.92S",
+              "duration": "PT0.47S",
+              "offsetInTicks": 219200000.0,
+              "durationInTicks": 4700000.0,
+              "confidence": 0.909055
+            },
+            {
+              "word": "custom",
+              "offset": "PT22.39S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 223900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.773505
+            },
+            {
+              "word": "vision",
+              "offset": "PT22.77S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 227700000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.890939
+            },
+            {
+              "word": "allows",
+              "offset": "PT23.07S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 230700000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.87404
+            },
+            {
+              "word": "you",
+              "offset": "PT23.45S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 234500000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.931078
+            },
+            {
+              "word": "to",
+              "offset": "PT23.54S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 235400000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.90532
+            },
+            {
+              "word": "specify",
+              "offset": "PT23.63S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 236300000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.91256
+            },
+            {
+              "word": "the",
+              "offset": "PT24.11S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 241100000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.921955
+            },
+            {
+              "word": "labels",
+              "offset": "PT24.25S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 242500000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.905934
+            },
+            {
+              "word": "and",
+              "offset": "PT24.83S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 248300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.893626
+            },
+            {
+              "word": "train",
+              "offset": "PT25.03S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 250300000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.814363
+            },
+            {
+              "word": "custom",
+              "offset": "PT25.37S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 253700000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.789767
+            },
+            {
+              "word": "models",
+              "offset": "PT25.76S",
+              "duration": "PT0.49S",
+              "offsetInTicks": 257600000.0,
+              "durationInTicks": 4900000.0,
+              "confidence": 0.927465
+            },
+            {
+              "word": "to",
+              "offset": "PT26.25S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 262500000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.908243
+            },
+            {
+              "word": "detect",
+              "offset": "PT26.63S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 266300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.839128
+            },
+            {
+              "word": "them",
+              "offset": "PT27.13S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 271300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.880375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT28.11S",
+      "duration": "PT31.34S",
+      "offsetInTicks": 281100000.0,
+      "durationInTicks": 313400000.0,
+      "nBest": [
+        {
+          "confidence": 0.84910214,
+          "lexical": "what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "itn": "what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "maskedITN": "What does it do The Custom Vision Service uses a machine learning algorithm to analyze images You the developer submits it groups of images that feature an lack The characteristics in question you label the images yourself at the time of submission Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images Once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "display": "What does it do? The Custom Vision Service uses a machine learning algorithm to analyze images. You, the developer, submits it groups of images that feature an lack. The characteristics in question, you label the images yourself at the time of submission. Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images. Once the algorithm is trained, you contest retrain and eventually use it in your image recognition app to classifying you.",
+          "words": [
+            {
+              "word": "what",
+              "offset": "PT28.13S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 281300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.87914
+            },
+            {
+              "word": "does",
+              "offset": "PT28.33S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 283300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.945229
+            },
+            {
+              "word": "it",
+              "offset": "PT28.49S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 284900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.925516
+            },
+            {
+              "word": "do",
+              "offset": "PT28.59S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 285900000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.877427
+            },
+            {
+              "word": "the",
+              "offset": "PT29.44S",
+              "duration": "PT0.15S",
+              "offsetInTicks": 294400000.0,
+              "durationInTicks": 1500000.0,
+              "confidence": 0.649711
+            },
+            {
+              "word": "custom",
+              "offset": "PT29.59S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 295900000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.773655
+            },
+            {
+              "word": "vision",
+              "offset": "PT29.91S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 299100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.830953
+            },
+            {
+              "word": "service",
+              "offset": "PT30.17S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 301700000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.939298
+            },
+            {
+              "word": "uses",
+              "offset": "PT30.69S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 306900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.777694
+            },
+            {
+              "word": "a",
+              "offset": "PT31.03S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 310300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.879671
+            },
+            {
+              "word": "machine",
+              "offset": "PT31.13S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 311300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.946225
+            },
+            {
+              "word": "learning",
+              "offset": "PT31.63S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 316300000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.884354
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT31.93S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 319300000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.951466
+            },
+            {
+              "word": "to",
+              "offset": "PT32.53S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 325300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.909842
+            },
+            {
+              "word": "analyze",
+              "offset": "PT32.69S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 326900000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.935555
+            },
+            {
+              "word": "images",
+              "offset": "PT33.31S",
+              "duration": "PT0.84S",
+              "offsetInTicks": 333100000.0,
+              "durationInTicks": 8400000.0,
+              "confidence": 0.92851
+            },
+            {
+              "word": "you",
+              "offset": "PT34.3S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 343000000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.712798
+            },
+            {
+              "word": "the",
+              "offset": "PT34.69S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 346900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.569175
+            },
+            {
+              "word": "developer",
+              "offset": "PT34.79S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 347900000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.86527
+            },
+            {
+              "word": "submits",
+              "offset": "PT35.37S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 353700000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.848845
+            },
+            {
+              "word": "it",
+              "offset": "PT35.92S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 359200000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.893756
+            },
+            {
+              "word": "groups",
+              "offset": "PT36.21S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 362100000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.790299
+            },
+            {
+              "word": "of",
+              "offset": "PT36.55S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 365500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.918374
+            },
+            {
+              "word": "images",
+              "offset": "PT36.67S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 366700000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.912558
+            },
+            {
+              "word": "that",
+              "offset": "PT37.29S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 372900000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.914669
+            },
+            {
+              "word": "feature",
+              "offset": "PT37.53S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 375300000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.908177
+            },
+            {
+              "word": "an",
+              "offset": "PT38.09S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 380900000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.616828
+            },
+            {
+              "word": "lack",
+              "offset": "PT38.25S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 382500000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.599453
+            },
+            {
+              "word": "the",
+              "offset": "PT38.57S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 385700000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.802336
+            },
+            {
+              "word": "characteristics",
+              "offset": "PT38.67S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 386700000.0,
+              "durationInTicks": 8000000.0,
+              "confidence": 0.870603
+            },
+            {
+              "word": "in",
+              "offset": "PT39.47S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 394700000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.895652
+            },
+            {
+              "word": "question",
+              "offset": "PT39.61S",
+              "duration": "PT0.86S",
+              "offsetInTicks": 396100000.0,
+              "durationInTicks": 8600000.0,
+              "confidence": 0.915508
+            },
+            {
+              "word": "you",
+              "offset": "PT40.69S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 406900000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.657303
+            },
+            {
+              "word": "label",
+              "offset": "PT40.97S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 409700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.728669
+            },
+            {
+              "word": "the",
+              "offset": "PT41.33S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 413300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.865703
+            },
+            {
+              "word": "images",
+              "offset": "PT41.47S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 414700000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.91459
+            },
+            {
+              "word": "yourself",
+              "offset": "PT41.93S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 419300000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.918815
+            },
+            {
+              "word": "at",
+              "offset": "PT42.57S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 425700000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.833898
+            },
+            {
+              "word": "the",
+              "offset": "PT42.68S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 426800000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.932139
+            },
+            {
+              "word": "time",
+              "offset": "PT42.77S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 427700000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.922585
+            },
+            {
+              "word": "of",
+              "offset": "PT43.03S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 430300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.897904
+            },
+            {
+              "word": "submission",
+              "offset": "PT43.13S",
+              "duration": "PT0.92S",
+              "offsetInTicks": 431300000.0,
+              "durationInTicks": 9200000.0,
+              "confidence": 0.780471
+            },
+            {
+              "word": "then",
+              "offset": "PT44.18S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 441800000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.631942
+            },
+            {
+              "word": "the",
+              "offset": "PT44.43S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 444300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.898009
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT44.57S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 445700000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.924402
+            },
+            {
+              "word": "trains",
+              "offset": "PT45.13S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 451300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.804459
+            },
+            {
+              "word": "to",
+              "offset": "PT45.63S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 456300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.904949
+            },
+            {
+              "word": "this",
+              "offset": "PT45.77S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 457700000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.9031
+            },
+            {
+              "word": "data",
+              "offset": "PT45.97S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 459700000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.811128
+            },
+            {
+              "word": "and",
+              "offset": "PT46.35S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 463500000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.821009
+            },
+            {
+              "word": "calculates",
+              "offset": "PT46.49S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 464900000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.83846
+            },
+            {
+              "word": "its",
+              "offset": "PT47.09S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 470900000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.780879
+            },
+            {
+              "word": "own",
+              "offset": "PT47.27S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 472700000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.921618
+            },
+            {
+              "word": "accuracy",
+              "offset": "PT47.53S",
+              "duration": "PT0.95S",
+              "offsetInTicks": 475300000.0,
+              "durationInTicks": 9500000.0,
+              "confidence": 0.886754
+            },
+            {
+              "word": "by",
+              "offset": "PT48.5S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 485000000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.709916
+            },
+            {
+              "word": "testing",
+              "offset": "PT48.67S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 486700000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.87181
+            },
+            {
+              "word": "itself",
+              "offset": "PT49.08S",
+              "duration": "PT0.45S",
+              "offsetInTicks": 490800000.0,
+              "durationInTicks": 4500000.0,
+              "confidence": 0.839886
+            },
+            {
+              "word": "on",
+              "offset": "PT49.53S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 495300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.902586
+            },
+            {
+              "word": "those",
+              "offset": "PT49.73S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 497300000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.861415
+            },
+            {
+              "word": "samples",
+              "offset": "PT49.98S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 499800000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.835597
+            },
+            {
+              "word": "on",
+              "offset": "PT50.73S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 507300000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.724625
+            },
+            {
+              "word": "the",
+              "offset": "PT50.97S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 509700000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.929834
+            },
+            {
+              "word": "same",
+              "offset": "PT51.13S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 511300000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.921261
+            },
+            {
+              "word": "images",
+              "offset": "PT51.47S",
+              "duration": "PT0.86S",
+              "offsetInTicks": 514700000.0,
+              "durationInTicks": 8600000.0,
+              "confidence": 0.845879
+            },
+            {
+              "word": "once",
+              "offset": "PT52.35S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 523500000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.641945
+            },
+            {
+              "word": "the",
+              "offset": "PT52.89S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 528900000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.858354
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT53S",
+              "duration": "PT0.45S",
+              "offsetInTicks": 530000000.0,
+              "durationInTicks": 4500000.0,
+              "confidence": 0.860335
+            },
+            {
+              "word": "is",
+              "offset": "PT53.45S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 534500000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.930094
+            },
+            {
+              "word": "trained",
+              "offset": "PT53.61S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 536100000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.826267
+            },
+            {
+              "word": "you",
+              "offset": "PT54.13S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 541300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.858978
+            },
+            {
+              "word": "contest",
+              "offset": "PT54.33S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 543300000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.76487
+            },
+            {
+              "word": "retrain",
+              "offset": "PT54.93S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 549300000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.678258
+            },
+            {
+              "word": "and",
+              "offset": "PT55.51S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 555100000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.848903
+            },
+            {
+              "word": "eventually",
+              "offset": "PT55.65S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 556500000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.924421
+            },
+            {
+              "word": "use",
+              "offset": "PT56.21S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 562100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.804401
+            },
+            {
+              "word": "it",
+              "offset": "PT56.47S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 564700000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.912269
+            },
+            {
+              "word": "in",
+              "offset": "PT56.59S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 565900000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.893159
+            },
+            {
+              "word": "your",
+              "offset": "PT56.71S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 567100000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.952161
+            },
+            {
+              "word": "image",
+              "offset": "PT56.99S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 569900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.908874
+            },
+            {
+              "word": "recognition",
+              "offset": "PT57.33S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 573300000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.926668
+            },
+            {
+              "word": "app",
+              "offset": "PT58.05S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 580500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.807514
+            },
+            {
+              "word": "to",
+              "offset": "PT58.45S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 584500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.837317
+            },
+            {
+              "word": "classifying",
+              "offset": "PT58.57S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 585700000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.7245
+            },
+            {
+              "word": "you",
+              "offset": "PT59.19S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 591900000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.912401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 0,
+      "speaker": 0,
+      "offset": "PT59.45S",
+      "duration": "PT5.73S",
+      "offsetInTicks": 594500000.0,
+      "durationInTicks": 57300000.0,
+      "nBest": [
+        {
+          "confidence": 0.8490672,
+          "lexical": "images you can also export the model itself for offline use",
+          "itn": "images you can also export the model itself for offline use",
+          "maskedITN": "Images you can also export the model itself for offline use",
+          "display": "Images you can also export the model itself for offline use.",
+          "words": [
+            {
+              "word": "images",
+              "offset": "PT59.47S",
+              "duration": "PT0.74S",
+              "offsetInTicks": 594700000.0,
+              "durationInTicks": 7400000.0,
+              "confidence": 0.919367
+            },
+            {
+              "word": "you",
+              "offset": "PT1M0.42S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 604200000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.53612
+            },
+            {
+              "word": "can",
+              "offset": "PT1M0.67S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 606700000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.941708
+            },
+            {
+              "word": "also",
+              "offset": "PT1M0.85S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 608500000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.924109
+            },
+            {
+              "word": "export",
+              "offset": "PT1M1.16S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 611600000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.786814
+            },
+            {
+              "word": "the",
+              "offset": "PT1M1.59S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 615900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.835798
+            },
+            {
+              "word": "model",
+              "offset": "PT1M1.69S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 616900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.939746
+            },
+            {
+              "word": "itself",
+              "offset": "PT1M2.07S",
+              "duration": "PT0.89S",
+              "offsetInTicks": 620700000.0,
+              "durationInTicks": 8900000.0,
+              "confidence": 0.859317
+            },
+            {
+              "word": "for",
+              "offset": "PT1M2.98S",
+              "duration": "PT0.61S",
+              "offsetInTicks": 629800000.0,
+              "durationInTicks": 6100000.0,
+              "confidence": 0.903491
+            },
+            {
+              "word": "offline",
+              "offset": "PT1M3.61S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 636100000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.739164
+            },
+            {
+              "word": "use",
+              "offset": "PT1M4.21S",
+              "duration": "PT0.71S",
+              "offsetInTicks": 642100000.0,
+              "durationInTicks": 7100000.0,
+              "confidence": 0.854045
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT1.83S",
+      "duration": "PT25.78S",
+      "offsetInTicks": 18300000.0,
+      "durationInTicks": 257800000.0,
+      "nBest": [
+        {
+          "confidence": 0.8712849,
+          "lexical": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects two images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them",
+          "itn": "what is azure custom vision azure custom vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects 2 images according to their visual characteristics unlike the computer vision service custom vision allows you to specify the labels and train custom models to detect them",
+          "maskedITN": "What is Azure custom vision Azure Custom Vision is an image recognition service that lets you build deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects 2 images according to their visual characteristics Unlike the Computer Vision Service Custom Vision allows you to specify the labels and train custom models to detect them",
+          "display": "What is Azure custom vision Azure? Custom Vision is an image recognition service that lets you build, deploy and improve your own image identifiers and image identifier applies labels which represents classes or objects. 2 images according to their visual characteristics. Unlike the Computer Vision Service, Custom Vision allows you to specify the labels and train custom models to detect them.",
+          "words": [
+            {
+              "word": "what",
+              "offset": "PT1.85S",
+              "duration": "PT0.42S",
+              "offsetInTicks": 18500000.0,
+              "durationInTicks": 4200000.0,
+              "confidence": 0.929688
+            },
+            {
+              "word": "is",
+              "offset": "PT2.27S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 22700000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.919947
+            },
+            {
+              "word": "azure",
+              "offset": "PT2.64S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 26400000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.677563
+            },
+            {
+              "word": "custom",
+              "offset": "PT3.07S",
+              "duration": "PT0.51S",
+              "offsetInTicks": 30700000.0,
+              "durationInTicks": 5100000.0,
+              "confidence": 0.840717
+            },
+            {
+              "word": "vision",
+              "offset": "PT3.58S",
+              "duration": "PT0.75S",
+              "offsetInTicks": 35800000.0,
+              "durationInTicks": 7500000.0,
+              "confidence": 0.918197
+            },
+            {
+              "word": "azure",
+              "offset": "PT4.52S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 45200000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.526958
+            },
+            {
+              "word": "custom",
+              "offset": "PT4.93S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 49300000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.765551
+            },
+            {
+              "word": "vision",
+              "offset": "PT5.29S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 52900000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.957797
+            },
+            {
+              "word": "is",
+              "offset": "PT5.69S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 56900000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.92728
+            },
+            {
+              "word": "an",
+              "offset": "PT5.95S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 59500000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.888025
+            },
+            {
+              "word": "image",
+              "offset": "PT6.11S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 61100000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.948649
+            },
+            {
+              "word": "recognition",
+              "offset": "PT6.43S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 64300000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.894425
+            },
+            {
+              "word": "service",
+              "offset": "PT7.01S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 70100000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.927054
+            },
+            {
+              "word": "that",
+              "offset": "PT7.59S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 75900000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.82
+            },
+            {
+              "word": "lets",
+              "offset": "PT7.79S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 77900000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.915857
+            },
+            {
+              "word": "you",
+              "offset": "PT8.11S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 81100000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.927202
+            },
+            {
+              "word": "build",
+              "offset": "PT8.23S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 82300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.950603
+            },
+            {
+              "word": "deploy",
+              "offset": "PT8.75S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 87500000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.803238
+            },
+            {
+              "word": "and",
+              "offset": "PT9.29S",
+              "duration": "PT0.19S",
+              "offsetInTicks": 92900000.0,
+              "durationInTicks": 1900000.0,
+              "confidence": 0.919976
+            },
+            {
+              "word": "improve",
+              "offset": "PT9.48S",
+              "duration": "PT0.47S",
+              "offsetInTicks": 94800000.0,
+              "durationInTicks": 4700000.0,
+              "confidence": 0.922633
+            },
+            {
+              "word": "your",
+              "offset": "PT9.95S",
+              "duration": "PT0.22S",
+              "offsetInTicks": 99500000.0,
+              "durationInTicks": 2200000.0,
+              "confidence": 0.937673
+            },
+            {
+              "word": "own",
+              "offset": "PT10.17S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 101700000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.904412
+            },
+            {
+              "word": "image",
+              "offset": "PT10.37S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 103700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.914089
+            },
+            {
+              "word": "identifiers",
+              "offset": "PT10.73S",
+              "duration": "PT1.03S",
+              "offsetInTicks": 107300000.0,
+              "durationInTicks": 10300000.0,
+              "confidence": 0.907567
+            },
+            {
+              "word": "and",
+              "offset": "PT11.99S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 119900000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.824911
+            },
+            {
+              "word": "image",
+              "offset": "PT12.29S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 122900000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.798578
+            },
+            {
+              "word": "identifier",
+              "offset": "PT12.57S",
+              "duration": "PT0.78S",
+              "offsetInTicks": 125700000.0,
+              "durationInTicks": 7800000.0,
+              "confidence": 0.897822
+            },
+            {
+              "word": "applies",
+              "offset": "PT13.35S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 133500000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.801476
+            },
+            {
+              "word": "labels",
+              "offset": "PT13.91S",
+              "duration": "PT0.75S",
+              "offsetInTicks": 139100000.0,
+              "durationInTicks": 7500000.0,
+              "confidence": 0.872147
+            },
+            {
+              "word": "which",
+              "offset": "PT14.74S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 147400000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.692458
+            },
+            {
+              "word": "represents",
+              "offset": "PT15.13S",
+              "duration": "PT0.49S",
+              "offsetInTicks": 151300000.0,
+              "durationInTicks": 4900000.0,
+              "confidence": 0.827638
+            },
+            {
+              "word": "classes",
+              "offset": "PT15.62S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 156200000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.87362
+            },
+            {
+              "word": "or",
+              "offset": "PT16.05S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 160500000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.895165
+            },
+            {
+              "word": "objects",
+              "offset": "PT16.23S",
+              "duration": "PT0.66S",
+              "offsetInTicks": 162300000.0,
+              "durationInTicks": 6600000.0,
+              "confidence": 0.92504
+            },
+            {
+              "word": "two",
+              "offset": "PT17.03S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 170300000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.82911
+            },
+            {
+              "word": "images",
+              "offset": "PT17.31S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 173100000.0,
+              "durationInTicks": 8000000.0,
+              "confidence": 0.920769
+            },
+            {
+              "word": "according",
+              "offset": "PT18.13S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 181300000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.820747
+            },
+            {
+              "word": "to",
+              "offset": "PT18.65S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 186500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.913605
+            },
+            {
+              "word": "their",
+              "offset": "PT18.77S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 187700000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.894029
+            },
+            {
+              "word": "visual",
+              "offset": "PT18.97S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 189700000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.842744
+            },
+            {
+              "word": "characteristics",
+              "offset": "PT19.31S",
+              "duration": "PT1.22S",
+              "offsetInTicks": 193100000.0,
+              "durationInTicks": 12200000.0,
+              "confidence": 0.966165
+            },
+            {
+              "word": "unlike",
+              "offset": "PT20.75S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 207500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.706043
+            },
+            {
+              "word": "the",
+              "offset": "PT21.15S",
+              "duration": "PT0.08S",
+              "offsetInTicks": 211500000.0,
+              "durationInTicks": 800000.0,
+              "confidence": 0.890652
+            },
+            {
+              "word": "computer",
+              "offset": "PT21.23S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 212300000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.836492
+            },
+            {
+              "word": "vision",
+              "offset": "PT21.62S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 216200000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.906443
+            },
+            {
+              "word": "service",
+              "offset": "PT21.91S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 219100000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.908913
+            },
+            {
+              "word": "custom",
+              "offset": "PT22.39S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 223900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.77133
+            },
+            {
+              "word": "vision",
+              "offset": "PT22.77S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 227700000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.889668
+            },
+            {
+              "word": "allows",
+              "offset": "PT23.07S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 230700000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.873529
+            },
+            {
+              "word": "you",
+              "offset": "PT23.45S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 234500000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.930521
+            },
+            {
+              "word": "to",
+              "offset": "PT23.54S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 235400000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.90542
+            },
+            {
+              "word": "specify",
+              "offset": "PT23.63S",
+              "duration": "PT0.48S",
+              "offsetInTicks": 236300000.0,
+              "durationInTicks": 4800000.0,
+              "confidence": 0.910544
+            },
+            {
+              "word": "the",
+              "offset": "PT24.11S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 241100000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.921687
+            },
+            {
+              "word": "labels",
+              "offset": "PT24.25S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 242500000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.905934
+            },
+            {
+              "word": "and",
+              "offset": "PT24.83S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 248300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.895898
+            },
+            {
+              "word": "train",
+              "offset": "PT25.03S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 250300000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.816833
+            },
+            {
+              "word": "custom",
+              "offset": "PT25.37S",
+              "duration": "PT0.39S",
+              "offsetInTicks": 253700000.0,
+              "durationInTicks": 3900000.0,
+              "confidence": 0.789191
+            },
+            {
+              "word": "models",
+              "offset": "PT25.76S",
+              "duration": "PT0.49S",
+              "offsetInTicks": 257600000.0,
+              "durationInTicks": 4900000.0,
+              "confidence": 0.925284
+            },
+            {
+              "word": "to",
+              "offset": "PT26.25S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 262500000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.881864
+            },
+            {
+              "word": "detect",
+              "offset": "PT26.63S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 266300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.837676
+            },
+            {
+              "word": "them",
+              "offset": "PT27.13S",
+              "duration": "PT0.46S",
+              "offsetInTicks": 271300000.0,
+              "durationInTicks": 4600000.0,
+              "confidence": 0.874389
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT28.11S",
+      "duration": "PT31.34S",
+      "offsetInTicks": 281100000.0,
+      "durationInTicks": 313400000.0,
+      "nBest": [
+        {
+          "confidence": 0.84690726,
+          "lexical": "what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "itn": "what does it do the custom vision service uses a machine learning algorithm to analyze images you the developer submits it groups of images that feature an lack the characteristics in question you label the images yourself at the time of submission then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "maskedITN": "What does it do The Custom Vision Service uses a machine learning algorithm to analyze images You the developer submits it groups of images that feature an lack The characteristics in question you label the images yourself at the time of submission Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images Once the algorithm is trained you contest retrain and eventually use it in your image recognition app to classifying you",
+          "display": "What does it do? The Custom Vision Service uses a machine learning algorithm to analyze images. You, the developer, submits it groups of images that feature an lack. The characteristics in question, you label the images yourself at the time of submission. Then the algorithm trains to this data and calculates its own accuracy by testing itself on those samples on the same images. Once the algorithm is trained, you contest retrain and eventually use it in your image recognition app to classifying you.",
+          "words": [
+            {
+              "word": "what",
+              "offset": "PT28.13S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 281300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.876206
+            },
+            {
+              "word": "does",
+              "offset": "PT28.33S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 283300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.942826
+            },
+            {
+              "word": "it",
+              "offset": "PT28.49S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 284900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.923911
+            },
+            {
+              "word": "do",
+              "offset": "PT28.59S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 285900000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.871676
+            },
+            {
+              "word": "the",
+              "offset": "PT29.44S",
+              "duration": "PT0.15S",
+              "offsetInTicks": 294400000.0,
+              "durationInTicks": 1500000.0,
+              "confidence": 0.65261
+            },
+            {
+              "word": "custom",
+              "offset": "PT29.59S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 295900000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.774316
+            },
+            {
+              "word": "vision",
+              "offset": "PT29.91S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 299100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.824008
+            },
+            {
+              "word": "service",
+              "offset": "PT30.17S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 301700000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.932143
+            },
+            {
+              "word": "uses",
+              "offset": "PT30.69S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 306900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.775136
+            },
+            {
+              "word": "a",
+              "offset": "PT31.03S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 310300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.874036
+            },
+            {
+              "word": "machine",
+              "offset": "PT31.13S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 311300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.944233
+            },
+            {
+              "word": "learning",
+              "offset": "PT31.63S",
+              "duration": "PT0.3S",
+              "offsetInTicks": 316300000.0,
+              "durationInTicks": 3000000.0,
+              "confidence": 0.882447
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT31.93S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 319300000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.951466
+            },
+            {
+              "word": "to",
+              "offset": "PT32.53S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 325300000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.909665
+            },
+            {
+              "word": "analyze",
+              "offset": "PT32.69S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 326900000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.936039
+            },
+            {
+              "word": "images",
+              "offset": "PT33.31S",
+              "duration": "PT0.84S",
+              "offsetInTicks": 333100000.0,
+              "durationInTicks": 8400000.0,
+              "confidence": 0.929372
+            },
+            {
+              "word": "you",
+              "offset": "PT34.32S",
+              "duration": "PT0.37S",
+              "offsetInTicks": 343200000.0,
+              "durationInTicks": 3700000.0,
+              "confidence": 0.728785
+            },
+            {
+              "word": "the",
+              "offset": "PT34.69S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 346900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.568653
+            },
+            {
+              "word": "developer",
+              "offset": "PT34.79S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 347900000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.863853
+            },
+            {
+              "word": "submits",
+              "offset": "PT35.37S",
+              "duration": "PT0.55S",
+              "offsetInTicks": 353700000.0,
+              "durationInTicks": 5500000.0,
+              "confidence": 0.847173
+            },
+            {
+              "word": "it",
+              "offset": "PT35.92S",
+              "duration": "PT0.29S",
+              "offsetInTicks": 359200000.0,
+              "durationInTicks": 2900000.0,
+              "confidence": 0.888139
+            },
+            {
+              "word": "groups",
+              "offset": "PT36.21S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 362100000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.787162
+            },
+            {
+              "word": "of",
+              "offset": "PT36.55S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 365500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.91807
+            },
+            {
+              "word": "images",
+              "offset": "PT36.67S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 366700000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.911226
+            },
+            {
+              "word": "that",
+              "offset": "PT37.29S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 372900000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.913894
+            },
+            {
+              "word": "feature",
+              "offset": "PT37.53S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 375300000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.907627
+            },
+            {
+              "word": "an",
+              "offset": "PT38.09S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 380900000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.618986
+            },
+            {
+              "word": "lack",
+              "offset": "PT38.25S",
+              "duration": "PT0.32S",
+              "offsetInTicks": 382500000.0,
+              "durationInTicks": 3200000.0,
+              "confidence": 0.606095
+            },
+            {
+              "word": "the",
+              "offset": "PT38.57S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 385700000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.803128
+            },
+            {
+              "word": "characteristics",
+              "offset": "PT38.67S",
+              "duration": "PT0.8S",
+              "offsetInTicks": 386700000.0,
+              "durationInTicks": 8000000.0,
+              "confidence": 0.883505
+            },
+            {
+              "word": "in",
+              "offset": "PT39.47S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 394700000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.895018
+            },
+            {
+              "word": "question",
+              "offset": "PT39.61S",
+              "duration": "PT0.86S",
+              "offsetInTicks": 396100000.0,
+              "durationInTicks": 8600000.0,
+              "confidence": 0.914408
+            },
+            {
+              "word": "you",
+              "offset": "PT40.72S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 407200000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.684445
+            },
+            {
+              "word": "label",
+              "offset": "PT40.97S",
+              "duration": "PT0.36S",
+              "offsetInTicks": 409700000.0,
+              "durationInTicks": 3600000.0,
+              "confidence": 0.730333
+            },
+            {
+              "word": "the",
+              "offset": "PT41.33S",
+              "duration": "PT0.13S",
+              "offsetInTicks": 413300000.0,
+              "durationInTicks": 1300000.0,
+              "confidence": 0.859106
+            },
+            {
+              "word": "images",
+              "offset": "PT41.46S",
+              "duration": "PT0.47S",
+              "offsetInTicks": 414600000.0,
+              "durationInTicks": 4700000.0,
+              "confidence": 0.915283
+            },
+            {
+              "word": "yourself",
+              "offset": "PT41.93S",
+              "duration": "PT0.64S",
+              "offsetInTicks": 419300000.0,
+              "durationInTicks": 6400000.0,
+              "confidence": 0.918884
+            },
+            {
+              "word": "at",
+              "offset": "PT42.57S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 425700000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.827372
+            },
+            {
+              "word": "the",
+              "offset": "PT42.68S",
+              "duration": "PT0.09S",
+              "offsetInTicks": 426800000.0,
+              "durationInTicks": 900000.0,
+              "confidence": 0.931172
+            },
+            {
+              "word": "time",
+              "offset": "PT42.77S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 427700000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.922189
+            },
+            {
+              "word": "of",
+              "offset": "PT43.03S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 430300000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.89807
+            },
+            {
+              "word": "submission",
+              "offset": "PT43.13S",
+              "duration": "PT1.03S",
+              "offsetInTicks": 431300000.0,
+              "durationInTicks": 10300000.0,
+              "confidence": 0.712284
+            },
+            {
+              "word": "then",
+              "offset": "PT44.18S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 441800000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.631002
+            },
+            {
+              "word": "the",
+              "offset": "PT44.43S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 444300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.898419
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT44.57S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 445700000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.924844
+            },
+            {
+              "word": "trains",
+              "offset": "PT45.13S",
+              "duration": "PT0.5S",
+              "offsetInTicks": 451300000.0,
+              "durationInTicks": 5000000.0,
+              "confidence": 0.804069
+            },
+            {
+              "word": "to",
+              "offset": "PT45.63S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 456300000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.904949
+            },
+            {
+              "word": "this",
+              "offset": "PT45.77S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 457700000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.902159
+            },
+            {
+              "word": "data",
+              "offset": "PT45.97S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 459700000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.809065
+            },
+            {
+              "word": "and",
+              "offset": "PT46.35S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 463500000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.804792
+            },
+            {
+              "word": "calculates",
+              "offset": "PT46.49S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 464900000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.83757
+            },
+            {
+              "word": "its",
+              "offset": "PT47.09S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 470900000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.780287
+            },
+            {
+              "word": "own",
+              "offset": "PT47.27S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 472700000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.915796
+            },
+            {
+              "word": "accuracy",
+              "offset": "PT47.53S",
+              "duration": "PT0.95S",
+              "offsetInTicks": 475300000.0,
+              "durationInTicks": 9500000.0,
+              "confidence": 0.886202
+            },
+            {
+              "word": "by",
+              "offset": "PT48.5S",
+              "duration": "PT0.17S",
+              "offsetInTicks": 485000000.0,
+              "durationInTicks": 1700000.0,
+              "confidence": 0.724091
+            },
+            {
+              "word": "testing",
+              "offset": "PT48.67S",
+              "duration": "PT0.41S",
+              "offsetInTicks": 486700000.0,
+              "durationInTicks": 4100000.0,
+              "confidence": 0.873609
+            },
+            {
+              "word": "itself",
+              "offset": "PT49.08S",
+              "duration": "PT0.45S",
+              "offsetInTicks": 490800000.0,
+              "durationInTicks": 4500000.0,
+              "confidence": 0.839456
+            },
+            {
+              "word": "on",
+              "offset": "PT49.53S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 495300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.904058
+            },
+            {
+              "word": "those",
+              "offset": "PT49.73S",
+              "duration": "PT0.25S",
+              "offsetInTicks": 497300000.0,
+              "durationInTicks": 2500000.0,
+              "confidence": 0.861668
+            },
+            {
+              "word": "samples",
+              "offset": "PT49.98S",
+              "duration": "PT0.73S",
+              "offsetInTicks": 499800000.0,
+              "durationInTicks": 7300000.0,
+              "confidence": 0.8485
+            },
+            {
+              "word": "on",
+              "offset": "PT50.73S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 507300000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.709455
+            },
+            {
+              "word": "the",
+              "offset": "PT50.97S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 509700000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.928001
+            },
+            {
+              "word": "same",
+              "offset": "PT51.13S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 511300000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.921137
+            },
+            {
+              "word": "images",
+              "offset": "PT51.47S",
+              "duration": "PT0.86S",
+              "offsetInTicks": 514700000.0,
+              "durationInTicks": 8600000.0,
+              "confidence": 0.853569
+            },
+            {
+              "word": "once",
+              "offset": "PT52.35S",
+              "duration": "PT0.54S",
+              "offsetInTicks": 523500000.0,
+              "durationInTicks": 5400000.0,
+              "confidence": 0.627699
+            },
+            {
+              "word": "the",
+              "offset": "PT52.89S",
+              "duration": "PT0.11S",
+              "offsetInTicks": 528900000.0,
+              "durationInTicks": 1100000.0,
+              "confidence": 0.858931
+            },
+            {
+              "word": "algorithm",
+              "offset": "PT53S",
+              "duration": "PT0.45S",
+              "offsetInTicks": 530000000.0,
+              "durationInTicks": 4500000.0,
+              "confidence": 0.861395
+            },
+            {
+              "word": "is",
+              "offset": "PT53.45S",
+              "duration": "PT0.16S",
+              "offsetInTicks": 534500000.0,
+              "durationInTicks": 1600000.0,
+              "confidence": 0.932366
+            },
+            {
+              "word": "trained",
+              "offset": "PT53.61S",
+              "duration": "PT0.52S",
+              "offsetInTicks": 536100000.0,
+              "durationInTicks": 5200000.0,
+              "confidence": 0.829224
+            },
+            {
+              "word": "you",
+              "offset": "PT54.13S",
+              "duration": "PT0.2S",
+              "offsetInTicks": 541300000.0,
+              "durationInTicks": 2000000.0,
+              "confidence": 0.857347
+            },
+            {
+              "word": "contest",
+              "offset": "PT54.33S",
+              "duration": "PT0.6S",
+              "offsetInTicks": 543300000.0,
+              "durationInTicks": 6000000.0,
+              "confidence": 0.765082
+            },
+            {
+              "word": "retrain",
+              "offset": "PT54.93S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 549300000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.6708
+            },
+            {
+              "word": "and",
+              "offset": "PT55.51S",
+              "duration": "PT0.14S",
+              "offsetInTicks": 555100000.0,
+              "durationInTicks": 1400000.0,
+              "confidence": 0.855539
+            },
+            {
+              "word": "eventually",
+              "offset": "PT55.65S",
+              "duration": "PT0.56S",
+              "offsetInTicks": 556500000.0,
+              "durationInTicks": 5600000.0,
+              "confidence": 0.920784
+            },
+            {
+              "word": "use",
+              "offset": "PT56.21S",
+              "duration": "PT0.26S",
+              "offsetInTicks": 562100000.0,
+              "durationInTicks": 2600000.0,
+              "confidence": 0.803375
+            },
+            {
+              "word": "it",
+              "offset": "PT56.47S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 564700000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.911919
+            },
+            {
+              "word": "in",
+              "offset": "PT56.59S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 565900000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.893803
+            },
+            {
+              "word": "your",
+              "offset": "PT56.71S",
+              "duration": "PT0.28S",
+              "offsetInTicks": 567100000.0,
+              "durationInTicks": 2800000.0,
+              "confidence": 0.951674
+            },
+            {
+              "word": "image",
+              "offset": "PT56.99S",
+              "duration": "PT0.34S",
+              "offsetInTicks": 569900000.0,
+              "durationInTicks": 3400000.0,
+              "confidence": 0.908367
+            },
+            {
+              "word": "recognition",
+              "offset": "PT57.33S",
+              "duration": "PT0.72S",
+              "offsetInTicks": 573300000.0,
+              "durationInTicks": 7200000.0,
+              "confidence": 0.926242
+            },
+            {
+              "word": "app",
+              "offset": "PT58.05S",
+              "duration": "PT0.4S",
+              "offsetInTicks": 580500000.0,
+              "durationInTicks": 4000000.0,
+              "confidence": 0.806047
+            },
+            {
+              "word": "to",
+              "offset": "PT58.45S",
+              "duration": "PT0.12S",
+              "offsetInTicks": 584500000.0,
+              "durationInTicks": 1200000.0,
+              "confidence": 0.83864
+            },
+            {
+              "word": "classifying",
+              "offset": "PT58.57S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 585700000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.718401
+            },
+            {
+              "word": "you",
+              "offset": "PT59.19S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 591900000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.919135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "recognitionStatus": "Success",
+      "channel": 1,
+      "speaker": 0,
+      "offset": "PT59.45S",
+      "duration": "PT5.73S",
+      "offsetInTicks": 594500000.0,
+      "durationInTicks": 57300000.0,
+      "nBest": [
+        {
+          "confidence": 0.85113543,
+          "lexical": "images you can also export the model itself for offline use",
+          "itn": "images you can also export the model itself for offline use",
+          "maskedITN": "Images you can also export the model itself for offline use",
+          "display": "Images you can also export the model itself for offline use.",
+          "words": [
+            {
+              "word": "images",
+              "offset": "PT59.47S",
+              "duration": "PT0.74S",
+              "offsetInTicks": 594700000.0,
+              "durationInTicks": 7400000.0,
+              "confidence": 0.918093
+            },
+            {
+              "word": "you",
+              "offset": "PT1M0.43S",
+              "duration": "PT0.24S",
+              "offsetInTicks": 604300000.0,
+              "durationInTicks": 2400000.0,
+              "confidence": 0.539612
+            },
+            {
+              "word": "can",
+              "offset": "PT1M0.67S",
+              "duration": "PT0.18S",
+              "offsetInTicks": 606700000.0,
+              "durationInTicks": 1800000.0,
+              "confidence": 0.941416
+            },
+            {
+              "word": "also",
+              "offset": "PT1M0.85S",
+              "duration": "PT0.31S",
+              "offsetInTicks": 608500000.0,
+              "durationInTicks": 3100000.0,
+              "confidence": 0.923765
+            },
+            {
+              "word": "export",
+              "offset": "PT1M1.16S",
+              "duration": "PT0.43S",
+              "offsetInTicks": 611600000.0,
+              "durationInTicks": 4300000.0,
+              "confidence": 0.771038
+            },
+            {
+              "word": "the",
+              "offset": "PT1M1.59S",
+              "duration": "PT0.1S",
+              "offsetInTicks": 615900000.0,
+              "durationInTicks": 1000000.0,
+              "confidence": 0.838124
+            },
+            {
+              "word": "model",
+              "offset": "PT1M1.69S",
+              "duration": "PT0.38S",
+              "offsetInTicks": 616900000.0,
+              "durationInTicks": 3800000.0,
+              "confidence": 0.939101
+            },
+            {
+              "word": "itself",
+              "offset": "PT1M2.07S",
+              "duration": "PT0.88S",
+              "offsetInTicks": 620700000.0,
+              "durationInTicks": 8800000.0,
+              "confidence": 0.860094
+            },
+            {
+              "word": "for",
+              "offset": "PT1M2.97S",
+              "duration": "PT0.62S",
+              "offsetInTicks": 629700000.0,
+              "durationInTicks": 6200000.0,
+              "confidence": 0.902819
+            },
+            {
+              "word": "offline",
+              "offset": "PT1M3.61S",
+              "duration": "PT0.58S",
+              "offsetInTicks": 636100000.0,
+              "durationInTicks": 5800000.0,
+              "confidence": 0.746957
+            },
+            {
+              "word": "use",
+              "offset": "PT1M4.19S",
+              "duration": "PT0.74S",
+              "offsetInTicks": 641900000.0,
+              "durationInTicks": 7400000.0,
+              "confidence": 0.863654
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
