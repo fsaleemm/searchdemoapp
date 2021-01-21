@@ -20,13 +20,13 @@
                                 if (speakersDict.ContainsKey(facet.Value[indx].Value.ToString()))
                                 {
                                     <li>
-                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq '" + facet.Value[indx].Value + "')") )">@speakersDict[facet.Value[indx].Value.ToString()] (@facet.Value[c].Count)</a>
+                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq " + facet.Value[indx].Value + ")") )">@speakersDict[facet.Value[indx].Value.ToString()] (@facet.Value[c].Count)</a>
                                     </li>
                                 }
                                 else
                                 {
                                     <li>
-                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq '" + facet.Value[indx].Value + "')") )">@facet.Value[indx].Value (@facet.Value[c].Count)</a>
+                                        <a href="#" @onclick="@( (args) => RunFilterQuery.InvokeAsync("recognizedPhrases/any(s: s/speaker eq " + facet.Value[indx].Value + ")") )">@facet.Value[indx].Value (@facet.Value[c].Count)</a>
                                     </li>
                                 }
                             }
