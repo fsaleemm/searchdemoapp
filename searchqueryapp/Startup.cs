@@ -33,21 +33,20 @@ namespace searchqueryapp
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
-                .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
-            services.AddControllersWithViews()
-                .AddMicrosoftIdentityUI();
+            //services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+            //    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
+            //services.AddControllersWithViews()
+            //    .AddMicrosoftIdentityUI();
 
-            services.AddAuthorization(options =>
-            {
-                // By default, all incoming requests will be authorized according to the default policy
-                options.FallbackPolicy = options.DefaultPolicy;
-            });
+            //services.AddAuthorization(options =>
+            //{
+            //    // By default, all incoming requests will be authorized according to the default policy
+            //    options.FallbackPolicy = options.DefaultPolicy;
+            //});
 
             services.AddRazorPages();
             services.AddServerSideBlazor()
                 .AddMicrosoftIdentityConsentHandler();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<QueryACSService>();
         }
 

@@ -16,10 +16,10 @@
                         <td class="sampleTitle">
                             @((MarkupString)result["filename"]) 
 
-                            @if (result["source"] != null)
+                            @*@if (result["source"] != null)
                             {
                                 <a class="label" href="@result["source"]" target="_blank">Play Audio</a>
-                            }
+                            }*@
                         </td>
                     </tr>
                     <br />
@@ -33,31 +33,13 @@
                     </tr>
                     <br />
                 }
-                @if (result["transcription"] != null)
+                @if (result["speakerTranscription"] != null)
                 {
                     <tr class="result-table-row" >
                         <td class="sampleText">
-                            <span class="sampleLabel">Full Transcript: </span>@((MarkupString)result["transcription"])
+                            <span class="sampleLabel">Full Transcript: </span><br />@((MarkupString)result["speakerTranscription"])
                         </td>
                     </tr>
-
-                    @*if (showTranscript)
-                    {
-                        <tr class="result-table-row">
-                            <td class="sampleText">
-                                @((MarkupString)result["transcription"])
-                                <a href="#" @onclick="ToggleShowTranscript">Hide Transcript</a>
-                            </td>
-                        </tr>
-                    }
-                    else
-                    {
-                        <tr class="result-table-row">
-                            <td class="sampleText">
-                                <a href="#" @onclick="ToggleShowTranscript">Show Transcript</a>
-                            </td>
-                        </tr>
-                    }*@
                 }
             </tbody>
         </table>
@@ -70,14 +52,5 @@
 @code {
 
     [Parameter] public Result queryResult { get; set; }
-
-    protected bool showTranscript = false;
-
-    protected string fullTranscript = string.Empty;
-
-    protected void ToggleShowTranscript()
-    {
-        showTranscript = !showTranscript;
-    }
 
 }

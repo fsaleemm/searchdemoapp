@@ -54,11 +54,20 @@ namespace searchqueryapp.Data.service
             {
                 SearchDocument doc = result.Document;
                 Dictionary<string, string> r = new Dictionary<string, string>();
+                string speakerTranscription = string.Empty;
+
                 r.Add("filename", (string)doc["metadata_storage_name"]);
                 r.Add("timestamp", (string)doc["timeStamp"]);
                 //results.processedResults.Add("size", (string)doc["metadata_storage_size"]);
                 r.Add("lastmodified", (string)doc["metadata_storage_last_modified"]);
                 r.Add("transcription", (string)doc.GetObjectCollection("combinedRecognizedPhrases")[0]["display"]);
+
+                foreach (SearchDocument recognizedPhrase in doc.GetObjectCollection("recognizedPhrases"))
+                {
+                    speakerTranscription += String.Format("<span class=\"speakerLabel\">Speaker {0}</span>: {1} <br>", recognizedPhrase.GetString("speaker"), recognizedPhrase.GetObjectCollection("nBest")[0].GetString("display"));
+                }
+
+                r.Add("speakerTranscription", speakerTranscription);
 
                 if (result.Highlights != null)
                     r.Add("highlights", String.Join(" ...  ", result.Highlights["combinedRecognizedPhrases/display"].ToList()));

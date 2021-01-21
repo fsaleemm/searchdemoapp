@@ -50,6 +50,7 @@ textarea.box3 {
     text-align: left;
     height: 30px;
     color: blue;
+    font-style: italic;
 }
 
 .hitHighlight {
@@ -59,6 +60,19 @@ textarea.box3 {
     text-align: left;
     height: 30px;
     color: orangered;
+}
+
+.speakerLabel {
+    font: 17px/bold 'Segoe UI Light',Arial,Helvetica,Sans-Serif;
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: left;
+    height: 30px;
+    color: green;
+}
+
+.hideTranscript {
+    display: none;
 }
 
 .searchBoxForm {
