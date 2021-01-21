@@ -64,7 +64,7 @@ namespace searchqueryapp.Data.service
 
                 foreach (SearchDocument recognizedPhrase in doc.GetObjectCollection("recognizedPhrases"))
                 {
-                    speakerTranscription += String.Format("<span class=\"speakerLabel\">Speaker {0}</span>: {1} <br>", recognizedPhrase.GetString("speaker"), recognizedPhrase.GetObjectCollection("nBest")[0].GetString("display"));
+                    speakerTranscription += String.Format("<span class=\"speakerLabel\">Speaker {0}</span>: {1} <br>", recognizedPhrase.GetInt32("speaker").ToString(), recognizedPhrase.GetObjectCollection("nBest")[0].GetString("display"));
                 }
 
                 r.Add("speakerTranscription", speakerTranscription);
