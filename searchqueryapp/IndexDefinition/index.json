@@ -19,8 +19,8 @@
     {
       "name": "timeStamp",
       "type": "Edm.DateTimeOffset",
-      "facetable": true,
-      "filterable": true,
+      "facetable": false,
+      "filterable": false,
       "retrievable": true,
       "sortable": false,
       "analyzer": null,
@@ -44,36 +44,6 @@
     },
     {
       "name": "duration",
-      "type": "Edm.String",
-      "facetable": true,
-      "filterable": true,
-      "key": false,
-      "retrievable": true,
-      "searchable": false,
-      "sortable": false,
-      "analyzer": null,
-      "indexAnalyzer": null,
-      "searchAnalyzer": null,
-      "synonymMaps": [],
-      "fields": []
-    },
-    {
-      "name": "speaker",
-      "type": "Edm.String",
-      "facetable": true,
-      "filterable": true,
-      "key": false,
-      "retrievable": true,
-      "searchable": false,
-      "sortable": false,
-      "analyzer": null,
-      "indexAnalyzer": null,
-      "searchAnalyzer": null,
-      "synonymMaps": [],
-      "fields": []
-    },
-    {
-      "name": "category",
       "type": "Edm.String",
       "facetable": true,
       "filterable": true,
@@ -160,7 +130,7 @@
           "retrievable": true,
           "searchable": true,
           "sortable": false,
-          "analyzer": "en.lucene",
+          "analyzer": "en.microsoft",
           "indexAnalyzer": null,
           "searchAnalyzer": null,
           "synonymMaps": [],
@@ -178,7 +148,7 @@
           "name": "recognitionStatus",
           "type": "Edm.String",
           "facetable": false,
-          "filterable": true,
+          "filterable": false,
           "key": false,
           "retrievable": true,
           "searchable": false,
@@ -204,12 +174,10 @@
         },
         {
           "name": "speaker",
-          "type": "Edm.String",
+          "type": "Edm.Int64",
           "facetable": true,
           "filterable": true,
-          "key": false,
           "retrievable": true,
-          "searchable": false,
           "sortable": false,
           "analyzer": null,
           "indexAnalyzer": null,
@@ -507,13 +475,13 @@
     {
       "name": "metadata_storage_name",
       "type": "Edm.String",
-      "facetable": true,
-      "filterable": true,
+      "facetable": false,
+      "filterable": false,
       "key": false,
       "retrievable": true,
       "searchable": true,
       "sortable": false,
-      "analyzer": "standard.lucene",
+      "analyzer": "en.microsoft",
       "indexAnalyzer": null,
       "searchAnalyzer": null,
       "synonymMaps": [],
@@ -553,14 +521,15 @@
   "suggesters": [],
   "scoringProfiles": [],
   "defaultScoringProfile": "",
-  "corsOptions": {
-    "allowedOrigins": [
-      "*"
-    ],
-    "maxAgeInSeconds": null
-  },
+  "corsOptions": null,
   "analyzers": [],
   "charFilters": [],
   "tokenFilters": [],
-  "tokenizers": []
+  "tokenizers": [],
+  "similarity": {
+    "@odata.type": "#Microsoft.Azure.Search.BM25Similarity",
+    "k1": null,
+    "b": null
+  },
+  "encryptionKey": null
 }
