@@ -5,13 +5,27 @@ This is a demo application that is intended to be an illustration of how to inde
 ![Result Display](/images/result.JPG)
 
 ## Architecture
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](/templates/template.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/templates/azuredeploy.json)
 
-[TBD]
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ffsaleemm%2Fsearchdemoapp%2Ffeature%2Ftemplates%2Ftemplates%2Fazuredeploy.json)
+
+The following components will be deployed to your resource group.
+
+![Components Deployed](/images/comp.PNG)
+
+The diagram below shows the architecture.
+
+![Architecture](/images/arch.PNG)
+
+1. The blob container that has the output from the S2T solution accelerator.
+1. The Azure Cognitive Search service is used to create an indexer to provide search capability for the JSON files create by S2T solution accelerator. 
+1. A Web App service is used to deploy the custom search application.
 
 ## High Level Setup Steps
 
-1. Copy the [sample data](/searchqueryapp/SampleData) into the searchsource container. This container is the output storage container of the S2T solution accelerator.
+1. Deploy the components using the Deploy to Azure button above.
+1. Copy the [sample data](/searchqueryapp/SampleData) into the searchsource blob container. This container simulates the output storage container of the S2T solution accelerator.
 1. Follow instruction on [How to index JSON blobs using a Blob indexer in Azure Cognitive Search](https://docs.microsoft.com/en-us/azure/search/search-howto-index-json-blobs#:~:text=Parsing%20modes%20%20%20%20parsingMode%20%20,mode%20if%20your%20blobs%20consist%20o%20..., "") to index JSON in the SampleData folder.
     1. For Step 3 in instructions, select Parsing mode as JSON, and the searchsource storage container.
     2. For step 5 in instructions, set index attributes as specified in the screenshot shown below:
@@ -39,7 +53,7 @@ This is a demo application that is intended to be an illustration of how to inde
   ]
   ```
 
-5. Add the [configurations to the App Service.](https://docs.microsoft.com/en-us/azure/app-service/configure-common#edit-in-bulk).
+6. Add the [configurations to the App Service.](https://docs.microsoft.com/en-us/azure/app-service/configure-common#edit-in-bulk).
 1. Lauch the app.
 
 Disclaimer: This is a sample application with rudimentary error/exception handling and no unit testing. It is intended as an illustration/demo and not for production use.

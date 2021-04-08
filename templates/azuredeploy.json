@@ -135,8 +135,9 @@
             "name": "[variables('app_name')]",
             "location": "[resourceGroup().location]",
             "kind": "app",
-             "dependsOn": [
-                "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_name'))]"
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_name'))]",
+                "[resourceId('Microsoft.Search/searchServices', variables('searchService_name'))]"
             ],
             "properties": {
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_name'))]",
@@ -144,15 +145,15 @@
                     "appSettings": [
                         {
                             "name": "SearchIndexName",
-                            "value": "[uri(reference(resourceId('Microsoft.ServiceBus/namespaces', parameters('servicebus_namespaces')), '2018-01-01-preview').serviceBusEndpoint, '')]"
+                            "value": "<Index Name>"
                         },
                         {
                             "name": "SearchServiceEndpoint",
-                            "value": "sbt-fs-demo"
+                            "value": "[concat('https://', variables('searchService_name'), '.search.windows.net')]"
                         },
                         {
                             "name": "SearchServiceQueryApiKey",
-                            "value": "sbt-fs-demo"
+                            "value": "[listQueryKeys(resourceId('Microsoft.Search/searchServices', variables('searchService_name')), '2020-08-01').value[0].key]"
                         }
                     ]
                 }
@@ -165,7 +166,7 @@
                     "name": "web",
                     "location": "[resourceGroup().location]",
                     "dependsOn": [
-                    "[resourceId('Microsoft.Web/sites', variables('app_name'))]"
+                        "[resourceId('Microsoft.Web/sites', variables('app_name'))]"
                     ],
                     "properties": {
                     "repoUrl": "[variables('repoUrl')]",
