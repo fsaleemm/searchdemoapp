@@ -28,10 +28,10 @@ The diagram below shows the architecture.
 1. Copy the [sample data](/searchqueryapp/SampleData) into the searchsource blob container. This container simulates the output storage container of the S2T solution accelerator.
 1. Follow instruction on [How to index JSON blobs using a Blob indexer in Azure Cognitive Search](https://docs.microsoft.com/en-us/azure/search/search-howto-index-json-blobs#:~:text=Parsing%20modes%20%20%20%20parsingMode%20%20,mode%20if%20your%20blobs%20consist%20o%20..., "") to index JSON in the SampleData folder.
     1. For Step 3 in instructions, select Parsing mode as JSON, and the searchsource storage container.
-    2. For step 5 in instructions, set index attributes as specified in the screenshot shown below:
+    2. For step 5 in instructions, set index attributes as specified in the screenshot shown below. Make sure to select the Analyzers as "English - Microsoft":
     ![Index Definition](/images/indexdefinition.JPG)
 1. Enable Authentication on the App Service. For simplicity [create new app registration automatically](https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad#-create-a-new-app-registration-automatically)
-1. [Get the Search Service Endpoint and Key](https://docs.microsoft.com/en-us/azure/search/search-semi-structured-data#get-a-key-and-url) and fill in the the endpoint url and the api key. The index name is set in the indexer creation step above.
+1. [Get the Search Service Endpoint and Key](https://docs.microsoft.com/en-us/azure/search/search-semi-structured-data#get-a-key-and-url), fill in the endpoint url and the api key. The index name is set in the indexer creation step above.
 
   ```json
   [
