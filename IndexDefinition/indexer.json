@@ -1,14 +1,11 @@
 {
   "name": "azureblob-indexer",
   "description": "",
-  "dataSourceName": "jsonblobdata",
+  "dataSourceName": "s2tdemofiles",
   "skillsetName": null,
   "targetIndexName": "azureblob-index",
   "disabled": null,
-  "schedule": {
-    "interval": "PT1H",
-    "startTime": "2021-01-14T14:44:25.549Z"
-  },
+  "schedule": null,
   "parameters": {
     "batchSize": null,
     "maxFailedItems": 0,

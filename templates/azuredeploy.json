@@ -145,7 +145,7 @@
                     "appSettings": [
                         {
                             "name": "SearchIndexName",
-                            "value": "<Index Name>"
+                            "value": "azureblob-index"
                         },
                         {
                             "name": "SearchServiceEndpoint",
