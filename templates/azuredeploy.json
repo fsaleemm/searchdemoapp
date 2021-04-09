@@ -1,0 +1,180 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageNamePrefix": {
+            "defaultValue": "sts2tdemo",
+            "type": "String"
+        },
+        "searchServicesPrefix": {
+            "defaultValue": "srch-s2tdemo-",
+            "type" : "String"
+        },
+        "appPrefix": {
+            "defaultValue": "s2tdemo-",
+            "type": "String"
+        },
+        "serverfarms_ASP_name": {
+            "defaultValue": "ASP-win-net5-s2tdemo",
+            "type": "String"
+        }
+    },
+    "variables": {
+        "storageAccounts_name": "[concat(toLower(parameters('storageNamePrefix')), uniqueString(resourceGroup().id))]",
+        "searchService_name": "[concat(toLower(parameters('searchServicesPrefix')), uniqueString(resourceGroup().id))]",
+        "app_name": "[concat(toLower(parameters('appPrefix')), uniqueString(resourceGroup().id))]",
+        "repoUrl" : "https://github.com/fsaleemm/searchdemoapp.git"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-01-01",
+            "name": "[variables('storageAccounts_name')]",
+            "location":"[resourceGroup().location]",
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "kind": "StorageV2",
+            "properties": {
+                "networkAcls": {
+                    "bypass": "AzureServices",
+                    "virtualNetworkRules": [],
+                    "ipRules": [],
+                    "defaultAction": "Allow"
+                },
+                "supportsHttpsTrafficOnly": true,
+                "encryption": {
+                    "services": {
+                        "file": {
+                            "keyType": "Account",
+                            "enabled": true
+                        },
+                        "blob": {
+                            "keyType": "Account",
+                            "enabled": true
+                        }
+                    },
+                    "keySource": "Microsoft.Storage"
+                },
+                "accessTier": "Hot"
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices",
+            "apiVersion": "2021-01-01",
+            "name": "[concat(variables('storageAccounts_name'), '/default')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_name'))]"
+            ],
+            "sku": {
+                "name": "Standard_LRS",
+                "tier": "Standard"
+            },
+            "properties": {
+                "cors": {
+                    "corsRules": []
+                },
+                "deleteRetentionPolicy": {
+                    "enabled": false
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2021-01-01",
+            "name": "[concat(variables('storageAccounts_name'), '/default/searchsource')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', variables('storageAccounts_name'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccounts_name'))]"
+            ],
+            "properties": {
+                "defaultEncryptionScope": "$account-encryption-key",
+                "denyEncryptionScopeOverride": false,
+                "publicAccess": "None"
+            }
+        },
+        {
+            "type": "Microsoft.Search/searchServices",
+            "apiVersion": "2020-08-01",
+            "name": "[variables('searchService_name')]",
+            "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "free"
+            },
+            "properties": {
+                "replicaCount": 1,
+                "partitionCount": 1,
+                "hostingMode": "Default",
+                "publicNetworkAccess": "Enabled",
+                "networkRuleSet": {
+                    "ipRules": []
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_ASP_name')]",
+            "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "S1",
+                "tier": "Standard",
+                "size": "S1",
+                "family": "S",
+                "capacity": 1
+            },
+            "kind": "app",
+            "properties": {
+                "reserved": false
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2018-11-01",
+            "name": "[variables('app_name')]",
+            "location": "[resourceGroup().location]",
+            "kind": "app",
+            "dependsOn": [
+                "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_name'))]",
+                "[resourceId('Microsoft.Search/searchServices', variables('searchService_name'))]"
+            ],
+            "properties": {
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_name'))]",
+                "siteConfig": {
+                    "appSettings": [
+                        {
+                            "name": "SearchIndexName",
+                            "value": "azureblob-index"
+                        },
+                        {
+                            "name": "SearchServiceEndpoint",
+                            "value": "[concat('https://', variables('searchService_name'), '.search.windows.net')]"
+                        },
+                        {
+                            "name": "SearchServiceQueryApiKey",
+                            "value": "[listQueryKeys(resourceId('Microsoft.Search/searchServices', variables('searchService_name')), '2020-08-01').value[0].key]"
+                        }
+                    ]
+                }
+            },
+            "resources": [
+                {
+                    "condition": "[contains(variables('repoUrl'),'http')]",
+                    "type": "sourcecontrols",
+                    "apiVersion": "2020-06-01",
+                    "name": "web",
+                    "location": "[resourceGroup().location]",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Web/sites', variables('app_name'))]"
+                    ],
+                    "properties": {
+                    "repoUrl": "[variables('repoUrl')]",
+                    "branch": "master",
+                    "isManualIntegration": true
+                    }
+                }
+            ]
+        }
+    ]
+}

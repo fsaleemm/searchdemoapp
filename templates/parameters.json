@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageNamePrefix": {
+            "value": "sts2tdemo"
+        },
+        "searchServicesPrefix": {
+            "value": "srch-s2tdemo-"
+        },
+        "appPrefix": {
+            "value": "s2tdemo-"
+        },
+        "serverfarms_ASP_name": {
+            "value": "ASP-win-net5-s2tdemo"
+        }
+    }
+}
